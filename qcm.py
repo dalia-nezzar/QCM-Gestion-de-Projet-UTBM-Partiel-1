@@ -3,7 +3,7 @@ import json
 import random
 from difflib import SequenceMatcher
 
-st.set_page_config(page_title="QCM - Gestion de Projet Partiel 1", layout="wide")
+st.set_page_config(page_title="QCM - Gestion de Projet Partiel 1", layout="centered")
 
 def calculate_similarity(user_answer, correct_answer):
     """Calcule le pourcentage de similarité entre deux réponses"""
@@ -50,27 +50,24 @@ with open("questions.json", "r", encoding="utf-8") as f:
 if not st.session_state.started:
     st.write("")
     st.write("")
-    col1, col2, col3 = st.columns([1, 2, 1])
+    st.info("👋 Bienvenue dans ce QCM d'entraînement !")
+    st.write("Combien de questions voulez-vous faire ?")
     
-    with col2:
-        st.info("👋 Bienvenue dans ce QCM d'entraînement !")
-        st.write("Combien de questions voulez-vous faire ?")
-        
-        num_questions = st.selectbox(
-            "Sélectionnez le nombre de questions:",
-            options=list(range(1, len(all_questions) + 1)),
-            index=len(all_questions) - 1,
-            label_visibility="collapsed"
-        )
-        
-        st.write("")
-        if st.button("🚀 Commencer", use_container_width=True):
-            st.session_state.started = True
-            st.session_state.num_questions_selected = num_questions
-            st.session_state.question_order = list(range(len(all_questions)))
-            random.shuffle(st.session_state.question_order)
-            st.session_state.question_order = st.session_state.question_order[:num_questions]
-            st.rerun()
+    num_questions = st.selectbox(
+        "Sélectionnez le nombre de questions:",
+        options=list(range(1, len(all_questions) + 1)),
+        index=len(all_questions) - 1,
+        label_visibility="collapsed"
+    )
+    
+    st.write("")
+    if st.button("🚀 Commencer", use_container_width=True):
+        st.session_state.started = True
+        st.session_state.num_questions_selected = num_questions
+        st.session_state.question_order = list(range(len(all_questions)))
+        random.shuffle(st.session_state.question_order)
+        st.session_state.question_order = st.session_state.question_order[:num_questions]
+        st.rerun()
 else:
     # Récupérer la question actuelle en fonction de l'ordre aléatoire
     current_question_idx = st.session_state.question_order[st.session_state.current_question]
