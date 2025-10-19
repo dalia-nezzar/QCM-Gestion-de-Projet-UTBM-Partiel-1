@@ -1,0 +1,776 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce qu'un projet ?",
+        "options": [
+            "Un ensemble de tâches visant un objectif défini, dans un contexte précis, avec délais, budgets et niveau de qualité souhaité",
+            "Un processus continu sans fin ni contraintes",
+            "Une activité routinière répétitive et standardisée",
+            "Une simple idée non évaluée"
+        ],
+        "correct": [
+            "Un ensemble de tâches visant un objectif défini, dans un contexte précis, avec délais, budgets et niveau de qualité souhaité"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "question": "Parmi les caractéristiques d'un projet, lesquelles sont exactes ?",
+        "options": [
+            "Limité dans le temps et l'espace",
+            "Soumis à des contraintes",
+            "Toujours sans budget",
+            "Source de changement",
+            "Toujours répétitif"
+        ],
+        "correct": [
+            "Limité dans le temps et l'espace",
+            "Soumis à des contraintes",
+            "Source de changement"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "question": "Quels types de projets sont cités dans le cours ?",
+        "options": [
+            "Projets « ouvrage »",
+            "Projets « produits »",
+            "Projets organisationnels",
+            "Projets « aléatoires »"
+        ],
+        "correct": [
+            "Projets « ouvrage »",
+            "Projets « produits »",
+            "Projets organisationnels"
+        ]
+    },
+    {
+        "id": 4,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Quel est le pourcentage de projets qui atteignent leurs objectifs, selon les chiffres du cours ?",
+        "correct": [
+            "64%",
+            "64"
+        ]
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "question": "Parmi ces affirmations sur les résultats de projets, lesquelles sont exactes ?",
+        "options": [
+            "39% aboutissent avec délai, coûts et scope respectés",
+            "43% sont livrés avec des problèmes (délais/coûts/scope)",
+            "18% échouent (annulés ou jamais utilisés)",
+            "80% aboutissent sans problème"
+        ],
+        "correct": [
+            "39% aboutissent avec délai, coûts et scope respectés",
+            "43% sont livrés avec des problèmes (délais/coûts/scope)",
+            "18% échouent (annulés ou jamais utilisés)"
+        ]
+    },
+    {
+        "id": 6,
+        "type": "multiple_choice",
+        "question": "Quelles sont des causes fréquentes d'échec de projet listées dans le cours ?",
+        "options": [
+            "Changement de priorités dans l'organisation",
+            "Exigences inadéquates",
+            "Excellente communication",
+            "Objectifs vagues",
+            "Mauvaise estimation des coûts"
+        ],
+        "correct": [
+            "Changement de priorités dans l'organisation",
+            "Exigences inadéquates",
+            "Objectifs vagues",
+            "Mauvaise estimation des coûts"
+        ]
+    },
+    {
+        "id": 7,
+        "type": "multiple_choice",
+        "question": "Dans le triangle (ou l'étoile) des contraintes, quels éléments sont explicitement mentionnés ?",
+        "options": [
+            "Scope",
+            "Coûts",
+            "Qualité",
+            "Ressources",
+            "Risques",
+            "Délai",
+            "Marketing"
+        ],
+        "correct": [
+            "Scope",
+            "Coûts",
+            "Qualité",
+            "Ressources",
+            "Risques",
+            "Délai"
+        ]
+    },
+    {
+        "id": 8,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Complétez : Toute évolution d'un des items (scope, coûts, qualité, ressources, risques, délai) ______ au moins un des autres.",
+        "correct": [
+            "modifie",
+            "impacte",
+            "affecte"
+        ]
+    },
+    {
+        "id": 9,
+        "type": "multiple_choice",
+        "question": "Dans le Cycle en V, quelles phases appartiennent à la partie amont (spécification/conception) ?",
+        "options": [
+            "Exigences",
+            "Analyse",
+            "Conception générale",
+            "Conception détaillée",
+            "Maintenance"
+        ],
+        "correct": [
+            "Exigences",
+            "Analyse",
+            "Conception générale",
+            "Conception détaillée"
+        ]
+    },
+    {
+        "id": 10,
+        "type": "multiple_choice",
+        "question": "Quelle est la définition correcte de l'intégration de projet ?",
+        "options": [
+            "L'ensemble des tâches qui structurent le projet : objet, gestion des aires de connaissance, gestion des changements",
+            "La planification détaillée des ressources humaines exclusivement",
+            "La seule gestion de la communication interne",
+            "La maintenance post-déploiement"
+        ],
+        "correct": [
+            "L'ensemble des tâches qui structurent le projet : objet, gestion des aires de connaissance, gestion des changements"
+        ]
+    },
+    {
+        "id": 11,
+        "type": "multiple_choice",
+        "question": "Quels documents appartiennent au domaine de l'intégration, selon le schéma du cours ?",
+        "options": [
+            "Project Charter",
+            "Project Management Plan",
+            "Perform Integrated Change Control",
+            "Clôture de phase",
+            "Manuel utilisateur"
+        ],
+        "correct": [
+            "Project Charter",
+            "Project Management Plan",
+            "Perform Integrated Change Control",
+            "Clôture de phase"
+        ]
+    },
+    {
+        "id": 12,
+        "type": "free_answer",
+        "number_of_answers": 2,
+        "question": "Citez au moins deux intrants (inputs) du Project Charter mentionnés dans le cours.",
+        "correct": [
+            "Project Statement of Work",
+            "Organizational Process Assets",
+            "Enterprise Environmental Factors",
+            "Business Case",
+            "Demandes clients",
+            "Avance technologique",
+            "Exigences réglementaires"
+        ]
+    },
+    {
+        "id": 13,
+        "type": "multiple_choice",
+        "question": "Quels éléments doit contenir un Project Charter (sorties/outputs) ?",
+        "options": [
+            "Attentes du projet",
+            "Objectifs et critères de succès",
+            "Exigences haut niveau",
+            "Macro-planning et macro-budget",
+            "Liste détaillée des tâches au niveau du WBS 3"
+        ],
+        "correct": [
+            "Attentes du projet",
+            "Objectifs et critères de succès",
+            "Exigences haut niveau",
+            "Macro-planning et macro-budget"
+        ]
+    },
+    {
+        "id": 14,
+        "type": "multiple_choice",
+        "question": "Quel est le rôle principal du Project Management Plan (PMP) ?",
+        "options": [
+            "Indiquer l'état du projet et décrire comment il doit être géré",
+            "Remplacer le cahier des charges fonctionnel",
+            "Servir uniquement de planning Gantt",
+            "Lister uniquement les risques"
+        ],
+        "correct": [
+            "Indiquer l'état du projet et décrire comment il doit être géré"
+        ]
+    },
+    {
+        "id": 15,
+        "type": "multiple_choice",
+        "question": "Quelles « baselines » sont explicitement citées comme parties prenantes du PMP ?",
+        "options": [
+            "Budget",
+            "Planning (Schedule)",
+            "Qualité",
+            "Risques",
+            "Marketing"
+        ],
+        "correct": [
+            "Budget",
+            "Planning (Schedule)",
+            "Qualité",
+            "Risques"
+        ]
+    },
+    {
+        "id": 16,
+        "type": "multiple_choice",
+        "question": "Dans le processus Perform Integrated Change Control, quelles étapes sont décrites ?",
+        "options": [
+            "Identification de la demande de changement",
+            "Analyse d'impacts",
+            "Passage en Change Control Board",
+            "Mise à jour des documents projet",
+            "Suppression des demandes rejetées sans traçabilité"
+        ],
+        "correct": [
+            "Identification de la demande de changement",
+            "Analyse d'impacts",
+            "Passage en Change Control Board",
+            "Mise à jour des documents projet"
+        ]
+    },
+    {
+        "id": 17,
+        "type": "multiple_choice",
+        "question": "Quelle différence le cours fait-il entre « scope produit » et « scope projet » ?",
+        "options": [
+            "Scope produit = caractéristiques/fonctions du produit ; scope projet = travail à réaliser pour le livrer",
+            "Scope produit = tâches à réaliser ; scope projet = qualités attendues du produit",
+            "Scope produit = budget ; scope projet = délais",
+            "Scope produit = risques ; scope projet = communications"
+        ],
+        "correct": [
+            "Scope produit = caractéristiques/fonctions du produit ; scope projet = travail à réaliser pour le livrer"
+        ]
+    },
+    {
+        "id": 18,
+        "type": "multiple_choice",
+        "question": "Quelles sont les étapes/activités clés pour construire le scope projet ?",
+        "options": [
+            "Collecter les exigences",
+            "Définir le scope",
+            "Créer le WBS",
+            "Contrôler le scope",
+            "Plan de test unitaire uniquement"
+        ],
+        "correct": [
+            "Collecter les exigences",
+            "Définir le scope",
+            "Créer le WBS",
+            "Contrôler le scope"
+        ]
+    },
+    {
+        "id": 19,
+        "type": "multiple_choice",
+        "question": "Dans l'analyse fonctionnelle, quelles démarches sont listées ?",
+        "options": [
+            "Identifier, Recenser, Ordonner/Classer/Regrouper",
+            "Hiérarchiser, Caractériser",
+            "Valoriser & Contrôler",
+            "Ignorer les contraintes",
+            "Analyser la valeur"
+        ],
+        "correct": [
+            "Identifier, Recenser, Ordonner/Classer/Regrouper",
+            "Hiérarchiser, Caractériser",
+            "Valoriser & Contrôler",
+            "Analyser la valeur"
+        ]
+    },
+    {
+        "id": 20,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Quel est l'objectif d'une WBS (Work Breakdown Structure) au niveau des work packages ?",
+        "correct": [
+            "Détailler les livrables en sous-ensembles planifiables"
+        ]
+    },
+    {
+        "id": 21,
+        "type": "multiple_choice",
+        "question": "À quoi sert la planification (Time) ?",
+        "options": [
+            "Estimer temps et ressources",
+            "Vérifier l'avancement et les écarts",
+            "Améliorer le time-to-market et le lessons learned",
+            "Éviter toute documentation"
+        ],
+        "correct": [
+            "Estimer temps et ressources",
+            "Vérifier l'avancement et les écarts",
+            "Améliorer le time-to-market et le lessons learned"
+        ]
+    },
+    {
+        "id": 22,
+        "type": "multiple_choice",
+        "question": "Associez chaque type de planning à sa caractéristique principale.",
+        "options": [
+            "PERT : visualise dépendances et calcule chemin critique",
+            "Gantt : simple et intuitif pour visualiser la succession des tâches",
+            "PERT : idéal pour présenter à des non-experts sans complexité",
+            "Gantt : difficile au-delà de nombreuses tâches"
+        ],
+        "correct": [
+            "PERT : visualise dépendances et calcule chemin critique",
+            "Gantt : simple et intuitif pour visualiser la succession des tâches",
+            "Gantt : difficile au-delà de nombreuses tâches"
+        ]
+    },
+    {
+        "id": 23,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Définissez le chemin critique en une phrase.",
+        "correct": [
+            "Suite des tâches dont tout retard allonge la durée totale du projet"
+        ]
+    },
+    {
+        "id": 24,
+        "type": "multiple_choice",
+        "question": "Quelles relations de dépendance entre tâches sont listées ?",
+        "options": [
+            "FS",
+            "SS",
+            "FF",
+            "SF",
+            "FD"
+        ],
+        "correct": [
+            "FS",
+            "SS",
+            "FF",
+            "SF"
+        ]
+    },
+    {
+        "id": 25,
+        "type": "multiple_choice",
+        "question": "Parmi ces contraintes de tâches, lesquelles sont inflexibles ?",
+        "options": [
+            "MSO",
+            "MFO",
+            "ASAP",
+            "ALAP",
+            "SNET"
+        ],
+        "correct": [
+            "MSO",
+            "MFO"
+        ]
+    },
+    {
+        "id": 26,
+        "type": "multiple_choice",
+        "question": "Parmi ces contraintes de tâches, lesquelles sont flexibles ?",
+        "options": [
+            "ASAP",
+            "ALAP",
+            "SNET",
+            "SNLT",
+            "FNET",
+            "FNLT"
+        ],
+        "correct": [
+            "ASAP",
+            "ALAP"
+        ]
+    },
+    {
+        "id": 27,
+        "type": "multiple_choice",
+        "question": "Parmi ces contraintes de tâches, lesquelles sont semi-flexibles ?",
+        "options": [
+            "SNET",
+            "SNLT",
+            "FNET",
+            "FNLT",
+            "MSO"
+        ],
+        "correct": [
+            "SNET",
+            "SNLT",
+            "FNET",
+            "FNLT"
+        ]
+    },
+    {
+        "id": 28,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Donnez la formule PERT de l'estimation (EST) à partir de OPT, MOY et PES.",
+        "correct": [
+            "(OPT + 4*MOY + PES)/6",
+            "(OPT+4*MOY+PES)/6"
+        ]
+    },
+    {
+        "id": 29,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Calculez l'EST PERT pour OPT=5, MOY=8, PES=17.",
+        "correct": [
+            "9",
+            "9.0"
+        ]
+    },
+    {
+        "id": 30,
+        "type": "multiple_choice",
+        "question": "Quelles méthodes d'estimation sont citées ?",
+        "options": [
+            "Expert Judgement",
+            "Tâche pilote",
+            "Par analogie",
+            "Lecture de tarots",
+            "Estimation analytique vs globale"
+        ],
+        "correct": [
+            "Expert Judgement",
+            "Tâche pilote",
+            "Par analogie",
+            "Estimation analytique vs globale"
+        ]
+    },
+    {
+        "id": 31,
+        "type": "multiple_choice",
+        "question": "Qu'entend-on par « tâches tampons » dans le cours ?",
+        "options": [
+            "Des tâches pour compenser les imprécisions et prévoir les aléas",
+            "Des tâches inutiles à supprimer",
+            "Des tâches de documentation uniquement",
+            "Des réserves de planning qui se managent"
+        ],
+        "correct": [
+            "Des tâches pour compenser les imprécisions et prévoir les aléas",
+            "Des réserves de planning qui se managent"
+        ]
+    },
+    {
+        "id": 32,
+        "type": "multiple_choice",
+        "question": "Quels indicateurs de calcul d'avancement sont listés ?",
+        "options": [
+            "% complété (tâches)",
+            "% travail achevé",
+            "% physique",
+            "% achevé (durée écoulée/durée totale)",
+            "Nombre de réunions"
+        ],
+        "correct": [
+            "% complété (tâches)",
+            "% travail achevé",
+            "% physique",
+            "% achevé (durée écoulée/durée totale)"
+        ]
+    },
+    {
+        "id": 33,
+        "type": "multiple_choice",
+        "question": "Quelles règles s'appliquent à la maîtrise des modifications de l'échéancier ?",
+        "options": [
+            "Évolutions après autorisation",
+            "Enregistrer des planifications à chaque modif",
+            "Documenter les modifications",
+            "Modifier sans trace pour gagner du temps"
+        ],
+        "correct": [
+            "Évolutions après autorisation",
+            "Enregistrer des planifications à chaque modif",
+            "Documenter les modifications"
+        ]
+    },
+    {
+        "id": 34,
+        "type": "multiple_choice",
+        "question": "Quelles techniques sont proposées pour « manager les retards » ?",
+        "options": [
+            "Fast Tracking (paralléliser)",
+            "Crash Planning (augmenter ressources)",
+            "Ignorer le chemin critique",
+            "Réduire la qualité sans analyse d'impact"
+        ],
+        "correct": [
+            "Fast Tracking (paralléliser)",
+            "Crash Planning (augmenter ressources)"
+        ]
+    },
+    {
+        "id": 35,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Quel enseignement (lessons learned) chiffré est mentionné sur l'accélération (fast track/crash) ?",
+        "correct": [
+            "Perte minimale de 30%",
+            "≥30% de perte",
+            "30% de perte minimale"
+        ]
+    },
+    {
+        "id": 36,
+        "type": "multiple_choice",
+        "question": "Quels éléments figurent dans le « Cahier des Charges Fonctionnel » (Define Scope) ?",
+        "options": [
+            "Présentation générale du problème",
+            "Expression fonctionnelle (FS/FC, critères)",
+            "Cadre de réponse (solutions, niveaux, prix)",
+            "Plan de communication marketing externe"
+        ],
+        "correct": [
+            "Présentation générale du problème",
+            "Expression fonctionnelle (FS/FC, critères)",
+            "Cadre de réponse (solutions, niveaux, prix)"
+        ]
+    },
+    {
+        "id": 37,
+        "type": "multiple_choice",
+        "number_of_answers": 2,
+        "question": "Lesquelles de ces affirmations décrivent correctement « Fonctions de service » (FS) et « Contraintes » (FC) en analyse fonctionnelle ?",
+        "options": [
+            "FS : fonctionnalités/raison d'être du produit ; FC : contraintes (normes, lois, environnement)",
+            "FS : contraintes de coût ; FC : fonctionnalités attendues du produit",
+            "FS : services rendus à l'usager (principal/complémentaire) ; FC : limites imposées au concepteur (réglementation, sécurité...)",
+            "FS : planning et budget ; FC : risques",
+            "FS : tâches du chef de projet ; FC : préférences de l'équipe"
+        ],
+        "correct": [
+            "FS : fonctionnalités/raison d'être du produit ; FC : contraintes (normes, lois, environnement)",
+            "FS : services rendus à l'usager (principal/complémentaire) ; FC : limites imposées au concepteur (réglementation, sécurité...)"
+        ]
+    },
+    {
+        "id": 38,
+        "type": "multiple_choice",
+        "question": "Dans la vue « Process Groups x Knowledge Areas », quelles aires de connaissance sont listées ?",
+        "options": [
+            "Integration",
+            "Scope",
+            "Time",
+            "Costs",
+            "Quality",
+            "Human Resources",
+            "Communication",
+            "Risks",
+            "Procurements"
+        ],
+        "correct": [
+            "Integration",
+            "Scope",
+            "Time",
+            "Costs",
+            "Quality",
+            "Human Resources",
+            "Communication",
+            "Risks",
+            "Procurements"
+        ]
+    },
+    {
+        "id": 39,
+        "type": "multiple_choice",
+        "question": "Quels groupes de processus sont traversés dans le schéma du cours ?",
+        "options": [
+            "Initiating",
+            "Planning",
+            "Executing",
+            "Monitoring (and Controlling)",
+            "Closing",
+            "Sales"
+        ],
+        "correct": [
+            "Initiating",
+            "Planning",
+            "Executing",
+            "Monitoring (and Controlling)",
+            "Closing"
+        ]
+    },
+    {
+        "id": 40,
+        "type": "free_answer",
+        "number_of_answers": 2,
+        "question": "Citez deux outils/techniques mentionnés pour élaborer le Project Charter.",
+        "correct": [
+            "Expert Judgment",
+            "Brainstorming",
+            "Interviews",
+            "Réunions Post-It",
+            "MindMap"
+        ]
+    },
+    {
+        "id": 41,
+        "type": "multiple_choice",
+        "question": "Que contient la section « Baselines » du PMP ?",
+        "options": [
+            "État validé de budget, planning, qualité, risques",
+            "La roadmap marketing à 5 ans",
+            "Les templates vides",
+            "L'historique des incidents de production"
+        ],
+        "correct": [
+            "État validé de budget, planning, qualité, risques"
+        ]
+    },
+    {
+        "id": 42,
+        "type": "multiple_choice",
+        "question": "Quel est l'objectif d'un jalon (milestone) ?",
+        "options": [
+            "Point de repère non ambigu dont le franchissement est constatable",
+            "Toujours associé à des ressources et une durée",
+            "Identifier le démarrage et la fin du projet",
+            "Servir d'activité de travail détaillée"
+        ],
+        "correct": [
+            "Point de repère non ambigu dont le franchissement est constatable",
+            "Identifier le démarrage et la fin du projet"
+        ]
+    },
+    {
+        "id": 43,
+        "type": "multiple_choice",
+        "question": "Associez chaque contrainte semi-flexible à sa signification.",
+        "options": [
+            "SNET : Start No Earlier Than",
+            "SNLT : Start No Later Than",
+            "FNET : Finish No Earlier Than",
+            "FNLT : Finish No Later Than",
+            "ASAP : As Soon As Possible"
+        ],
+        "correct": [
+            "SNET : Start No Earlier Than",
+            "SNLT : Start No Later Than",
+            "FNET : Finish No Earlier Than",
+            "FNLT : Finish No Later Than"
+        ]
+    },
+    {
+        "id": 44,
+        "type": "free_answer",
+        "number_of_answers": 1,
+        "question": "Expliquez en une phrase l'« estimation par analogie ». ",
+        "correct": [
+            "Estimer à partir de projets analogues en ajustant les différences (deltas) pertinentes"
+        ]
+    },
+    {
+        "id": 45,
+        "type": "multiple_choice",
+        "question": "Dans la section « Importance de la gestion de projet », quelles affirmations sont correctes ?",
+        "options": [
+            "Seul 64% des projets atteignent leurs objectifs",
+            "Une proportion significative rencontre des problèmes de délais/coûts/scope",
+            "Aucune cause d'échec n'est liée aux exigences",
+            "La mauvaise communication figure parmi les causes fréquentes d'échec"
+        ],
+        "correct": [
+            "Seul 64% des projets atteignent leurs objectifs",
+            "Une proportion significative rencontre des problèmes de délais/coûts/scope",
+            "La mauvaise communication figure parmi les causes fréquentes d'échec"
+        ]
+    },
+    {
+        "id": 46,
+        "type": "free_answer",
+        "number_of_answers": 2,
+        "question": "Donnez deux exemples d'« Enterprise Environmental Factors » cités comme intrants.",
+        "correct": [
+            "Infrastructure de l'organisation",
+            "Normes",
+            "Exigences réglementaires"
+        ]
+    },
+    {
+        "id": 47,
+        "type": "multiple_choice",
+        "question": "Lors d'une demande de changement refusée par le CCB, que doit-on faire selon le processus ?",
+        "options": [
+            "La supprimer sans trace",
+            "La stocker pour lessons learned",
+            "Mettre à jour les documents pour refléter le refus",
+            "La requalifier discrètement en risque"
+        ],
+        "correct": [
+            "La stocker pour lessons learned",
+            "Mettre à jour les documents pour refléter le refus"
+        ]
+    },
+    {
+        "id": 48,
+        "type": "multiple_choice",
+        "question": "Quels éléments apparaissent dans la matrice Process Groups x Knowledge Areas côté « Planning » ?",
+        "options": [
+            "Requirements, Scope, WBS",
+            "Activities, Resources, Durations, Schedule",
+            "Costs, Budget",
+            "Plan Quality, Plan HR, Plan Comm., Plan Risks, Plan Procurement",
+            "Close Procurements"
+        ],
+        "correct": [
+            "Requirements, Scope, WBS",
+            "Activities, Resources, Durations, Schedule",
+            "Costs, Budget",
+            "Plan Quality, Plan HR, Plan Comm., Plan Risks, Plan Procurement"
+        ]
+    },
+    {
+        "id": 49,
+        "type": "free_answer",
+        "number_of_answers": 2,
+        "question": "Citez deux exemples de livrables/artefacts explicitement reliés au périmètre (scope).",
+        "correct": [
+            "Liste des exigences",
+            "WBS/Work Packages",
+            "Critères d'acceptation",
+            "Cahier des charges fonctionnel"
+        ]
+    },
+    {
+        "id": 50,
+        "type": "multiple_choice",
+        "question": "Complétez cette idée clé : « Les dépendances et contraintes peuvent nuire à la ______ de la planification ». Quel mot manque, et quelles pratiques aident à mitiger ?",
+        "options": [
+            "Flexibilité ; documenter et limiter les contraintes inutiles",
+            "Qualité ; ignorer les dépendances",
+            "Visibilité ; supprimer les jalons",
+            "Coût ; augmenter systématiquement les ressources"
+        ],
+        "correct": [
+            "Flexibilité ; documenter et limiter les contraintes inutiles"
+        ]
+    }
+]
