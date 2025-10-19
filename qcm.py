@@ -37,17 +37,47 @@ if "question_order" not in st.session_state:
     random.shuffle(st.session_state.question_order)
 if "show_result" not in st.session_state:
     st.session_state.show_result = False
+if "started" not in st.session_state:
+    st.session_state.started = False
+if "num_questions_selected" not in st.session_state:
+    st.session_state.num_questions_selected = None
 
 # Charger les questions
 with open("questions.json", "r", encoding="utf-8") as f:
     all_questions = json.load(f)
 
-# Récupérer la question actuelle en fonction de l'ordre aléatoire
-current_question_idx = st.session_state.question_order[st.session_state.current_question]
-current_q = all_questions[current_question_idx]
+# Page d'accueil - sélection du nombre de questions
+if not st.session_state.started:
+    st.write("")
+    st.write("")
+    col1, col2, col3 = st.columns([1, 2, 1])
+    
+    with col2:
+        st.info("👋 Bienvenue dans ce QCM d'entraînement !")
+        st.write("Combien de questions voulez-vous faire ?")
+        
+        num_questions = st.selectbox(
+            "Sélectionnez le nombre de questions:",
+            options=list(range(1, len(all_questions) + 1)),
+            index=len(all_questions) - 1,
+            label_visibility="collapsed"
+        )
+        
+        st.write("")
+        if st.button("🚀 Commencer", use_container_width=True):
+            st.session_state.started = True
+            st.session_state.num_questions_selected = num_questions
+            st.session_state.question_order = list(range(len(all_questions)))
+            random.shuffle(st.session_state.question_order)
+            st.session_state.question_order = st.session_state.question_order[:num_questions]
+            st.rerun()
+else:
+    # Récupérer la question actuelle en fonction de l'ordre aléatoire
+    current_question_idx = st.session_state.question_order[st.session_state.current_question]
+    current_q = all_questions[current_question_idx]
 
-if not st.session_state.submitted:
-    st.subheader(f"Question {st.session_state.current_question + 1}/{len(all_questions)}")
+if st.session_state.started and not st.session_state.submitted:
+    st.subheader(f"Question {st.session_state.current_question + 1}/{len(st.session_state.question_order)}")
     st.write(current_q["question"])
     
     # Vérifier le type de question
@@ -137,7 +167,7 @@ if st.session_state.show_result and not st.session_state.submitted:
                 st.rerun()
     
     with col3:
-        if st.session_state.current_question < len(all_questions) - 1:
+        if st.session_state.current_question < len(st.session_state.question_order) - 1:
             if st.button("Suivant ➡️"):
                 st.session_state.current_question += 1
                 st.session_state.show_result = False
@@ -152,7 +182,8 @@ if st.session_state.submitted:
     st.success("QCM complété !")
     
     score = 0
-    for q in all_questions:
+    questions_to_check = [all_questions[idx] for idx in st.session_state.question_order]
+    for q in questions_to_check:
         user_answer = st.session_state.answers.get(q["id"], [])
         
         if q["type"] == "free_answer":
@@ -170,11 +201,12 @@ if st.session_state.submitted:
             if set(user_answer) == set(q["correct"]):
                 score += 1
     
-    st.metric("Score", f"{score}/{len(all_questions)}")
+    st.metric("Score", f"{score}/{len(st.session_state.question_order)}")
     
     # Détail des réponses
     st.subheader("Détail des réponses")
-    for i, q in enumerate(all_questions):
+    for i, idx in enumerate(st.session_state.question_order):
+        q = all_questions[idx]
         with st.expander(f"Question {i + 1}: {q['question'][:50]}..."):
             user_answer = st.session_state.answers.get(q["id"], [])
             
@@ -206,6 +238,6 @@ if st.session_state.submitted:
         st.session_state.answers = {}
         st.session_state.submitted = False
         st.session_state.show_result = False
-        st.session_state.question_order = list(range(len(all_questions)))
-        random.shuffle(st.session_state.question_order)
+        st.session_state.started = False
+        st.session_state.num_questions_selected = None
         st.rerun()
