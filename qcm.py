@@ -1,8 +1,9 @@
 import streamlit as st
 import json
+import random
 from difflib import SequenceMatcher
 
-st.set_page_config(page_title="QCM Gestion de Projet - Partiel 1", layout="wide")
+st.set_page_config(page_title="QCM - Gestion de Projet Partiel 1", layout="wide")
 
 def calculate_similarity(user_answer, correct_answer):
     """Calcule le pourcentage de similarité entre deux réponses"""
@@ -28,16 +29,25 @@ if "answers" not in st.session_state:
     st.session_state.answers = {}
 if "submitted" not in st.session_state:
     st.session_state.submitted = False
+if "question_order" not in st.session_state:
+    # Charger les questions et les mélanger
+    with open("questions.json", "r", encoding="utf-8") as f:
+        all_questions = json.load(f)
+    st.session_state.question_order = list(range(len(all_questions)))
+    random.shuffle(st.session_state.question_order)
+if "show_result" not in st.session_state:
+    st.session_state.show_result = False
 
-# Charger les questions depuis le JSON
+# Charger les questions
 with open("questions.json", "r", encoding="utf-8") as f:
-    questions = json.load(f)
+    all_questions = json.load(f)
 
-# Afficher la question actuelle
+# Récupérer la question actuelle en fonction de l'ordre aléatoire
+current_question_idx = st.session_state.question_order[st.session_state.current_question]
+current_q = all_questions[current_question_idx]
+
 if not st.session_state.submitted:
-    current_q = questions[st.session_state.current_question]
-    
-    st.subheader(f"Question {st.session_state.current_question + 1}/{len(questions)}")
+    st.subheader(f"Question {st.session_state.current_question + 1}/{len(all_questions)}")
     st.write(current_q["question"])
     
     # Vérifier le type de question
@@ -77,6 +87,45 @@ if not st.session_state.submitted:
         
         st.session_state.answers[current_q["id"]] = answers_list
     
+    # Bouton Valider
+    if st.button("✅ Valider cette question"):
+        st.session_state.show_result = True
+        st.rerun()
+
+# Afficher le résultat si demandé
+if st.session_state.show_result and not st.session_state.submitted:
+    st.divider()
+    st.subheader("Résultat")
+    
+    user_answer = st.session_state.answers.get(current_q["id"], [])
+    
+    # Calculer si c'est correct
+    if current_q["type"] == "free_answer":
+        user_answers_normalized = [ans.lower().strip() for ans in user_answer if ans.strip()]
+        correct_normalized = [c.lower().strip() for c in current_q["correct"]]
+        
+        # Vérifier si chaque réponse utilisateur correspond à une réponse correcte
+        is_correct = False
+        if len(user_answers_normalized) > 0:
+            is_correct = any(
+                ans in correct_normalized or calculate_similarity(ans, correct) >= 0.8
+                for ans in user_answers_normalized
+                for correct in correct_normalized
+            )
+    else:
+        # Pour les choix multiples
+        is_correct = set(user_answer) == set(current_q["correct"])
+    
+    st.write(f"**Votre réponse:** {', '.join(user_answer) if user_answer else 'Non répondu'}")
+    st.write(f"**Bonne(s) réponse(s):** {', '.join(current_q['correct'])}")
+    
+    if is_correct:
+        st.success("✅ Correct !")
+    else:
+        st.error("❌ Incorrect !")
+    
+    st.divider()
+    
     # Boutons de navigation
     col1, col2, col3 = st.columns(3)
     
@@ -84,42 +133,55 @@ if not st.session_state.submitted:
         if st.session_state.current_question > 0:
             if st.button("⬅️ Précédent"):
                 st.session_state.current_question -= 1
+                st.session_state.show_result = False
                 st.rerun()
     
     with col3:
-        if st.session_state.current_question < len(questions) - 1:
+        if st.session_state.current_question < len(all_questions) - 1:
             if st.button("Suivant ➡️"):
                 st.session_state.current_question += 1
+                st.session_state.show_result = False
                 st.rerun()
         else:
-            if st.button("✅ Soumettre"):
+            if st.button("🏁 Terminer le QCM"):
                 st.session_state.submitted = True
                 st.rerun()
 
-else:
-    # Afficher les résultats
+# Afficher les résultats finaux
+if st.session_state.submitted:
     st.success("QCM complété !")
     
     score = 0
-    for q in questions:
-        if q["id"] in st.session_state.answers:
-            if st.session_state.answers[q["id"]] == q["correct"]:
+    for q in all_questions:
+        user_answer = st.session_state.answers.get(q["id"], [])
+        
+        if q["type"] == "free_answer":
+            user_answers_normalized = [ans.lower().strip() for ans in user_answer if ans.strip()]
+            correct_normalized = [c.lower().strip() for c in q["correct"]]
+            
+            if len(user_answers_normalized) > 0:
+                if any(
+                    ans in correct_normalized or calculate_similarity(ans, correct) >= 0.8
+                    for ans in user_answers_normalized
+                    for correct in correct_normalized
+                ):
+                    score += 1
+        else:
+            if set(user_answer) == set(q["correct"]):
                 score += 1
     
-    st.metric("Score", f"{score}/{len(questions)}")
+    st.metric("Score", f"{score}/{len(all_questions)}")
     
     # Détail des réponses
     st.subheader("Détail des réponses")
-    for q in questions:
-        with st.expander(f"Question {q['id']}: {q['question'][:50]}..."):
+    for i, q in enumerate(all_questions):
+        with st.expander(f"Question {i + 1}: {q['question'][:50]}..."):
             user_answer = st.session_state.answers.get(q["id"], [])
             
-            # Pour les réponses libres, comparaison insensible à la casse
             if q["type"] == "free_answer":
                 user_answers_normalized = [ans.lower().strip() for ans in user_answer if ans.strip()]
                 correct_normalized = [c.lower().strip() for c in q["correct"]]
                 
-                # Vérifier si chaque réponse utilisateur correspond à une réponse correcte
                 is_correct = False
                 if len(user_answers_normalized) > 0:
                     is_correct = any(
@@ -128,7 +190,6 @@ else:
                         for correct in correct_normalized
                     )
             else:
-                # Pour les choix multiples, vérifier que toutes les réponses correspondent
                 is_correct = set(user_answer) == set(q["correct"])
             
             st.write(f"**Votre réponse:** {', '.join(user_answer) if user_answer else 'Non répondu'}")
@@ -144,4 +205,7 @@ else:
         st.session_state.current_question = 0
         st.session_state.answers = {}
         st.session_state.submitted = False
+        st.session_state.show_result = False
+        st.session_state.question_order = list(range(len(all_questions)))
+        random.shuffle(st.session_state.question_order)
         st.rerun()
