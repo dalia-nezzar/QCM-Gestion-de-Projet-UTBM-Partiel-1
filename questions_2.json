@@ -244,6 +244,137 @@
         ]
     },
     {
+        "id": 21,
+        "type": "multiple_choice",
+        "question": "Quels éléments font partie des données d’entrée pour estimer les coûts d’un projet ?",
+        "options": [
+            "La WBS (Work Breakdown Structure)",
+            "Le plan RH (HR Plan)",
+            "Le registre des risques (Risk Register)",
+            "Le diagramme de Gantt uniquement",
+            "Les coûts déjà connus sur le projet"
+        ],
+        "correct": [
+            "La WBS (Work Breakdown Structure)",
+            "Le plan RH (HR Plan)",
+            "Le registre des risques (Risk Register)",
+            "Les coûts déjà connus sur le projet"
+        ]
+    },
+    {
+        "id": 22,
+        "type": "multiple_choice",
+        "question": "Quel est l’objectif principal de la Reserve Analysis dans l’estimation des coûts ?",
+        "options": [
+            "Réduire le budget au strict minimum",
+            "Ajouter une réserve pour couvrir les incertitudes",
+            "Supprimer les activités à faible valeur ajoutée",
+            "Accélérer le planning du projet"
+        ],
+        "correct": [
+            "Ajouter une réserve pour couvrir les incertitudes"
+        ]
+    },
+    {
+        "id": 23,
+        "type": "free_answer",
+        "question": "Donnez la formule de l’Estimate At Completion (EAC) lorsque l’on suppose que les performances futures suivront la performance coût actuelle.",
+        "correct": [
+            "EAC = BAC / CPI",
+            "BAC / CPI"
+        ]
+    },
+    {
+        "id": 24,
+        "type": "multiple_choice",
+        "question": "Si EV > PV, que peut-on conclure sur l’avancement temporel du projet ?",
+        "options": [
+            "Le projet est en avance",
+            "Le projet est en retard",
+            "Le projet est exactement dans le planning",
+            "On ne peut rien conclure"
+        ],
+        "correct": [
+            "Le projet est en avance"
+        ]
+    },
+    {
+        "id": 25,
+        "type": "multiple_choice",
+        "question": "Parmi les indicateurs suivants, lesquels mesurent l’avancement (en valeur ou en temps) d’un projet ?",
+        "options": [
+            "EV (Earned Value)",
+            "PV (Planned Value)",
+            "AC (Actual Cost)",
+            "BAC (Budget At Completion)"
+        ],
+        "correct": [
+            "EV (Earned Value)",
+            "PV (Planned Value)"
+        ]
+    },
+    {
+        "id": 26,
+        "type": "free_answer",
+        "question": "Donnez la formule du Schedule Performance Index (SPI).",
+        "correct": [
+            "SPI = EV / PV",
+            "EV / PV"
+        ]
+    },
+    {
+        "id": 27,
+        "type": "multiple_choice",
+        "question": "Quelle affirmation décrit correctement l’Estimate To Complete (ETC) ?",
+        "options": [
+            "C’est le budget total initial du projet",
+            "C’est le coût déjà dépensé",
+            "C’est le budget restant à dépenser pour finir le projet",
+            "C’est la différence entre EV et AC"
+        ],
+        "correct": [
+            "C’est le budget restant à dépenser pour finir le projet"
+        ]
+    },
+    {
+        "id": 28,
+        "type": "multiple_choice",
+        "question": "On a EV = 7 000 € et AC = 6 000 €. Quelle est la Cost Variance (CV) ?",
+        "options": [
+            "-1 000 €",
+            "0 €",
+            "1 000 €",
+            "13 000 €"
+        ],
+        "correct": [
+            "1 000 €"
+        ]
+    },
+    {
+        "id": 29,
+        "type": "multiple_choice",
+        "question": "Parmi les méthodologies d’estimation vues en cours, laquelle est caractérisée comme très rapide mais très risquée ?",
+        "options": [
+            "Estimation par le marché",
+            "Estimation par les experts",
+            "Estimation paramétrique",
+            "COCOMO",
+            "Three-Point Estimation"
+        ],
+        "correct": [
+            "Estimation par le marché"
+        ]
+    },
+    {
+        "id": 30,
+        "type": "free_answer",
+        "question": "Que signifie l’acronyme COCOMO en gestion de projet logiciel ?",
+        "correct": [
+            "Constructive Cost Model",
+            "constructive cost model"
+        ]
+    },
+    {
         "id": 20,
         "type": "multiple_choice",
         "question": "Dans les statistiques présentées, quel pourcentage de projets informatiques aboutissent sans problème majeur ?",
