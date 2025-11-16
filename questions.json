@@ -663,7 +663,7 @@
     {
         "id": 43,
         "type": "multiple_choice",
-        "question": "Associez chaque contrainte semi-flexible à sa signification.",
+        "question": "Quelles contraintes sont considérées comme des contraintes de date semi-flexibles ?",
         "options": [
             "SNET : Start No Earlier Than",
             "SNLT : Start No Later Than",

@@ -29,46 +29,62 @@ if "answers" not in st.session_state:
     st.session_state.answers = {}
 if "submitted" not in st.session_state:
     st.session_state.submitted = False
-if "question_order" not in st.session_state:
-    # Charger les questions et les mélanger
-    with open("questions.json", "r", encoding="utf-8") as f:
-        all_questions = json.load(f)
-    st.session_state.question_order = list(range(len(all_questions)))
-    random.shuffle(st.session_state.question_order)
 if "show_result" not in st.session_state:
     st.session_state.show_result = False
 if "started" not in st.session_state:
     st.session_state.started = False
 if "num_questions_selected" not in st.session_state:
     st.session_state.num_questions_selected = None
+if "question_file" not in st.session_state:
+    # Valeur par défaut (sera remplacée si l'utilisateur choisit autre chose)
+    st.session_state.question_file = "questions.json"
 
-# Charger les questions
-with open("questions.json", "r", encoding="utf-8") as f:
-    all_questions = json.load(f)
+# Page d'accueil - choix de la partie puis sélection du nombre de questions
+parts = {
+    "Partie 1 - GDP": "questions.json",
+    "Partie 2 - Coûts, COCOMO": "questions_2.json",
+}
 
-# Page d'accueil - sélection du nombre de questions
 if not st.session_state.started:
     st.write("")
     st.write("")
     st.info("👋 Bienvenue dans ce QCM d'entraînement !")
-    st.write("Combien de questions voulez-vous faire ?")
-    
-    num_questions = st.selectbox(
-        "Sélectionnez le nombre de questions:",
-        options=list(range(1, len(all_questions) + 1)),
-        index=len(all_questions) - 1,
+    st.write("Choisissez la partie à utiliser puis le nombre de questions :")
+
+    # Sélecteur de partie (ne modifie session_state.question_file qu'au démarrage)
+    selected_part_label = st.selectbox(
+        "Choix de la partie:",
+        options=list(parts.keys()),
+        index=0,
         label_visibility="collapsed"
     )
-    
+    selected_file = parts[selected_part_label]
+
+    # Charger les questions de la partie sélectionnée pour déterminer le nombre possible
+    with open(selected_file, "r", encoding="utf-8") as f:
+        part_questions = json.load(f)
+
+    num_questions = st.selectbox(
+        "Sélectionnez le nombre de questions:",
+        options=list(range(1, len(part_questions) + 1)),
+        index=len(part_questions) - 1,
+        label_visibility="collapsed"
+    )
+
     st.write("")
     if st.button("🚀 Commencer", use_container_width=True):
         st.session_state.started = True
         st.session_state.num_questions_selected = num_questions
-        st.session_state.question_order = list(range(len(all_questions)))
+        st.session_state.question_file = selected_file
+        st.session_state.question_order = list(range(len(part_questions)))
         random.shuffle(st.session_state.question_order)
         st.session_state.question_order = st.session_state.question_order[:num_questions]
         st.rerun()
 else:
+    # Charger les questions depuis le fichier choisi
+    with open(st.session_state.question_file, "r", encoding="utf-8") as f:
+        all_questions = json.load(f)
+
     # Récupérer la question actuelle en fonction de l'ordre aléatoire
     current_question_idx = st.session_state.question_order[st.session_state.current_question]
     current_q = all_questions[current_question_idx]
