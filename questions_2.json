@@ -490,7 +490,7 @@
         "correct": [
             "EV = somme(avancement x coût)",
             "EV = avancement x coût",
-            "EV"
+            "EV = somme(avancement * coût)"
         ]
     },
     {
