@@ -319,7 +319,8 @@
         "question": "Donnez la formule du Schedule Performance Index (SPI).",
         "correct": [
             "SPI = EV / PV",
-            "EV / PV"
+            "EV / PV",
+            "EV/PV"
         ]
     },
     {
