@@ -34,12 +34,12 @@
         "question": "Dans la Three-Point Estimation, quelle formule permet de calculer l'estimation finale ?",
         "options": [
             "(Optimiste + Pessimiste) / 2",
-            "(Optimiste + 4×Probable + Pessimiste) / 6",
+            "(Optimiste + 4xProbable + Pessimiste) / 6",
             "(Optimiste + Probable + Pessimiste) / 3",
-            "(Pessimiste − Probable + Optimiste)"
+            "(Pessimiste - Probable + Optimiste)"
         ],
         "correct": [
-            "(Optimiste + 4×Probable + Pessimiste) / 6"
+            "(Optimiste + 4xProbable + Pessimiste) / 6"
         ]
     },
     {
@@ -211,13 +211,13 @@
         "type": "multiple_choice",
         "question": "Pour un projet organique, la formule de l'effort est :",
         "options": [
-            "2.4 × (KLOC)^1.05",
-            "3 × (KLOC)^1.12",
-            "3.6 × (KLOC)^1.20",
-            "2.5 × (HM)^0.38"
+            "2.4 x (KLOC)^1.05",
+            "3 x (KLOC)^1.12",
+            "3.6 x (KLOC)^1.20",
+            "2.5 x (HM)^0.38"
         ],
         "correct": [
-            "2.4 × (KLOC)^1.05"
+            "2.4 x (KLOC)^1.05"
         ]
     },
     {
@@ -246,7 +246,7 @@
     {
         "id": 21,
         "type": "multiple_choice",
-        "question": "Quels éléments font partie des données d’entrée pour estimer les coûts d’un projet ?",
+        "question": "Quels éléments font partie des données d'entrée pour estimer les coûts d'un projet ?",
         "options": [
             "La WBS (Work Breakdown Structure)",
             "Le plan RH (HR Plan)",
@@ -264,7 +264,7 @@
     {
         "id": 22,
         "type": "multiple_choice",
-        "question": "Quel est l’objectif principal de la Reserve Analysis dans l’estimation des coûts ?",
+        "question": "Quel est l'objectif principal de la Reserve Analysis dans l'estimation des coûts ?",
         "options": [
             "Réduire le budget au strict minimum",
             "Ajouter une réserve pour couvrir les incertitudes",
@@ -278,7 +278,7 @@
     {
         "id": 23,
         "type": "free_answer",
-        "question": "Donnez la formule de l’Estimate At Completion (EAC) lorsque l’on suppose que les performances futures suivront la performance coût actuelle.",
+        "question": "Donnez la formule de l'Estimate At Completion (EAC) lorsque l'on suppose que les performances futures suivront la performance coût actuelle.",
         "correct": [
             "EAC = BAC / CPI",
             "BAC / CPI"
@@ -287,7 +287,7 @@
     {
         "id": 24,
         "type": "multiple_choice",
-        "question": "Si EV > PV, que peut-on conclure sur l’avancement temporel du projet ?",
+        "question": "Si EV > PV, que peut-on conclure sur l'avancement temporel du projet ?",
         "options": [
             "Le projet est en avance",
             "Le projet est en retard",
@@ -301,7 +301,7 @@
     {
         "id": 25,
         "type": "multiple_choice",
-        "question": "Parmi les indicateurs suivants, lesquels mesurent l’avancement (en valeur ou en temps) d’un projet ?",
+        "question": "Parmi les indicateurs suivants, lesquels mesurent l'avancement (en valeur ou en temps) d'un projet ?",
         "options": [
             "EV (Earned Value)",
             "PV (Planned Value)",
@@ -326,15 +326,15 @@
     {
         "id": 27,
         "type": "multiple_choice",
-        "question": "Quelle affirmation décrit correctement l’Estimate To Complete (ETC) ?",
+        "question": "Quelle affirmation décrit correctement l'Estimate To Complete (ETC) ?",
         "options": [
-            "C’est le budget total initial du projet",
-            "C’est le coût déjà dépensé",
-            "C’est le budget restant à dépenser pour finir le projet",
-            "C’est la différence entre EV et AC"
+            "C'est le budget total initial du projet",
+            "C'est le coût déjà dépensé",
+            "C'est le budget restant à dépenser pour finir le projet",
+            "C'est la différence entre EV et AC"
         ],
         "correct": [
-            "C’est le budget restant à dépenser pour finir le projet"
+            "C'est le budget restant à dépenser pour finir le projet"
         ]
     },
     {
@@ -354,7 +354,7 @@
     {
         "id": 29,
         "type": "multiple_choice",
-        "question": "Parmi les méthodologies d’estimation vues en cours, laquelle est caractérisée comme très rapide mais très risquée ?",
+        "question": "Parmi les méthodologies d'estimation vues en cours, laquelle est caractérisée comme très rapide mais très risquée ?",
         "options": [
             "Estimation par le marché",
             "Estimation par les experts",
@@ -369,7 +369,7 @@
     {
         "id": 30,
         "type": "free_answer",
-        "question": "Que signifie l’acronyme COCOMO en gestion de projet logiciel ?",
+        "question": "Que signifie l'acronyme COCOMO en gestion de projet logiciel ?",
         "correct": [
             "Constructive Cost Model",
             "constructive cost model"
@@ -443,7 +443,7 @@
     {
         "id": 35,
         "type": "multiple_choice",
-        "question": "Le cost driver ‘RELY' concerne :",
+        "question": "Le cost driver 'RELY' concerne :",
         "options": [
             "La compétence des programmeurs",
             "La fiabilité requise",
@@ -472,7 +472,7 @@
     {
         "id": 37,
         "type": "multiple_choice",
-        "question": "La méthode ‘Expert Judgement' présente comme principal inconvénient :",
+        "question": "La méthode 'Expert Judgement' présente comme principal inconvénient :",
         "options": [
             "Une grande lenteur",
             "Une forte dépendance aux compétences individuelles",
@@ -488,8 +488,8 @@
         "type": "free_answer",
         "question": "Quel indicateur correspond à la valeur acquise (Earned Value) ? Donnez sa formule.",
         "correct": [
-            "EV = somme(avancement × coût)",
-            "EV = avancement × coût",
+            "EV = somme(avancement x coût)",
+            "EV = avancement x coût",
             "EV"
         ]
     },
@@ -538,7 +538,7 @@
     {
         "id": 42,
         "type": "multiple_choice",
-        "question": "Dans l'estimation du budget, ‘Cost Aggregation' signifie :",
+        "question": "Dans l'estimation du budget, 'Cost Aggregation' signifie :",
         "options": [
             "Ajouter des marges aléatoires",
             "Multiplier le coût total par un facteur",
@@ -590,7 +590,7 @@
     {
         "id": 46,
         "type": "multiple_choice",
-        "question": "Quel est l'ordre de grandeur typique de la taille maximale d'un projet ‘organique' ?",
+        "question": "Quel est l'ordre de grandeur typique de la taille maximale d'un projet 'organique' ?",
         "options": [
             "< 10 KLOC",
             "< 50 KLOC",
@@ -606,7 +606,7 @@
         "type": "free_answer",
         "question": "Quelle est la formule de l'Effort dans un projet COCOMO embarqué (modèle de base) ?",
         "correct": [
-            "3.6 × (KLOC)^1.20",
+            "3.6 x (KLOC)^1.20",
             "3.6*(KLOC)^1.20"
         ]
     },
@@ -627,7 +627,7 @@
     {
         "id": 49,
         "type": "multiple_choice",
-        "question": "La méthode ‘Historical Relationship' consiste à :",
+        "question": "La méthode 'Historical Relationship' consiste à :",
         "options": [
             "Appliquer des ratios statistiques issus de projets passés",
             "Demander à un expert de chiffrer",
