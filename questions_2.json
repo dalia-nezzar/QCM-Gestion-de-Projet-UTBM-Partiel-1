@@ -257,269 +257,267 @@
             "34%"
         ]
     },
-    [
-        {
-            "id": 31,
-            "type": "multiple_choice",
-            "question": "Quel indicateur mesure la performance temporelle d'un projet ?",
-            "options": [
-                "CPI",
-                "SPI",
-                "EAC",
-                "TCPI",
-                "PV"
-            ],
-            "correct": [
-                "SPI"
-            ]
-        },
-        {
-            "id": 32,
-            "type": "multiple_choice",
-            "question": "Si EV = 5000 €, PV = 7000 €, alors :",
-            "options": [
-                "Le projet est en avance",
-                "Le projet est en retard",
-                "Le coût est plus élevé que prévu",
-                "On ne peut pas conclure"
-            ],
-            "correct": [
-                "Le projet est en retard"
-            ]
-        },
-        {
-            "id": 33,
-            "type": "free_answer",
-            "question": "Quelle formule permet de calculer le TCPI (To-Complete Performance Index) ?",
-            "correct": [
-                "(BAC - EV) / (BAC - AC)",
-                "TCPI = (BAC - EV) / (BAC - AC)"
-            ]
-        },
-        {
-            "id": 34,
-            "type": "multiple_choice",
-            "question": "Dans le modèle COCOMO, quel type de projet correspond à des systèmes très complexes avec contraintes fortes et temps réel ?",
-            "options": [
-                "Organique",
-                "Semi-détaché",
-                "Embarqué"
-            ],
-            "correct": [
-                "Embarqué"
-            ]
-        },
-        {
-            "id": 35,
-            "type": "multiple_choice",
-            "question": "Le cost driver ‘RELY' concerne :",
-            "options": [
-                "La compétence des programmeurs",
-                "La fiabilité requise",
-                "La taille de la base de données",
-                "La contrainte mémoire",
-                "La contrainte de temps d'exécution"
-            ],
-            "correct": [
-                "La fiabilité requise"
-            ]
-        },
-        {
-            "id": 36,
-            "type": "multiple_choice",
-            "question": "Dans la répartition COCOMO, quelle phase occupe le plus de temps dans les projets simples (organique) ?",
-            "options": [
-                "Expression des besoins",
-                "Conception générale",
-                "Programmation",
-                "Tests et intégration"
-            ],
-            "correct": [
-                "Programmation"
-            ]
-        },
-        {
-            "id": 37,
-            "type": "multiple_choice",
-            "question": "La méthode ‘Expert Judgement' présente comme principal inconvénient :",
-            "options": [
-                "Une grande lenteur",
-                "Une forte dépendance aux compétences individuelles",
-                "Une difficulté à s'appliquer aux projets logiciels",
-                "Une absence d'historique"
-            ],
-            "correct": [
-                "Une forte dépendance aux compétences individuelles"
-            ]
-        },
-        {
-            "id": 38,
-            "type": "free_answer",
-            "question": "Quel indicateur correspond à la valeur acquise (Earned Value) ? Donnez sa formule.",
-            "correct": [
-                "EV = somme(avancement × coût)",
-                "EV = avancement × coût",
-                "EV"
-            ]
-        },
-        {
-            "id": 39,
-            "type": "multiple_choice",
-            "question": "Quelle méthode d'estimation inclut une réserve pour les incertitudes ?",
-            "options": [
-                "Reserve Analysis",
-                "Analogous Estimating",
-                "Parametric Estimating",
-                "Historical Relationship"
-            ],
-            "correct": [
-                "Reserve Analysis"
-            ]
-        },
-        {
-            "id": 40,
-            "type": "multiple_choice",
-            "question": "Si AC = 8000 €, EV = 6000 €, CPI = ?",
-            "options": [
-                "0,75",
-                "1",
-                "1,25",
-                "Impossible à calculer"
-            ],
-            "correct": [
-                "0,75"
-            ]
-        },
-        {
-            "id": 41,
-            "type": "multiple_choice",
-            "question": "Si CPI < 1 et SPI < 1, alors :",
-            "options": [
-                "Le projet est en avance et en économie",
-                "Le projet est en retard mais en économie",
-                "Le projet est en retard et en surcoût",
-                "Le projet est en avance mais en surcoût"
-            ],
-            "correct": [
-                "Le projet est en retard et en surcoût"
-            ]
-        },
-        {
-            "id": 42,
-            "type": "multiple_choice",
-            "question": "Dans l'estimation du budget, ‘Cost Aggregation' signifie :",
-            "options": [
-                "Ajouter des marges aléatoires",
-                "Multiplier le coût total par un facteur",
-                "Sommer les coûts estimés des activités",
-                "Comparer avec les projets historiques"
-            ],
-            "correct": [
-                "Sommer les coûts estimés des activités"
-            ]
-        },
-        {
-            "id": 43,
-            "type": "multiple_choice",
-            "question": "Dans le suivi des coûts, SV < 0 indique :",
-            "options": [
-                "Un retard",
-                "Une avance",
-                "Un surcoût",
-                "Une économie"
-            ],
-            "correct": [
-                "Un retard"
-            ]
-        },
-        {
-            "id": 44,
-            "type": "free_answer",
-            "question": "Quelle mesure représente le coût effectivement dépensé à un instant t ?",
-            "correct": [
-                "AC",
-                "Actual Cost"
-            ]
-        },
-        {
-            "id": 45,
-            "type": "multiple_choice",
-            "question": "Dans le modèle COCOMO, quel facteur correspond à la compétence des programmeurs ?",
-            "options": [
-                "ACAP",
-                "PCAP",
-                "AEXP",
-                "RELY",
-                "MODP"
-            ],
-            "correct": [
-                "PCAP"
-            ]
-        },
-        {
-            "id": 46,
-            "type": "multiple_choice",
-            "question": "Quel est l'ordre de grandeur typique de la taille maximale d'un projet ‘organique' ?",
-            "options": [
-                "< 10 KLOC",
-                "< 50 KLOC",
-                "< 300 KLOC",
-                "Aucune limite"
-            ],
-            "correct": [
-                "< 50 KLOC"
-            ]
-        },
-        {
-            "id": 47,
-            "type": "free_answer",
-            "question": "Quelle est la formule de l'Effort dans un projet COCOMO embarqué (modèle de base) ?",
-            "correct": [
-                "3.6 × (KLOC)^1.20",
-                "3.6*(KLOC)^1.20"
-            ]
-        },
-        {
-            "id": 48,
-            "type": "multiple_choice",
-            "question": "Dans COCOMO, que signifie un cost driver > 1 ?",
-            "options": [
-                "Une diminution de l'effort",
-                "Une augmentation de l'effort",
-                "Aucun impact",
-                "Une anomalie dans les données"
-            ],
-            "correct": [
-                "Une augmentation de l'effort"
-            ]
-        },
-        {
-            "id": 49,
-            "type": "multiple_choice",
-            "question": "La méthode ‘Historical Relationship' consiste à :",
-            "options": [
-                "Appliquer des ratios statistiques issus de projets passés",
-                "Demander à un expert de chiffrer",
-                "Utiliser la formule à trois points",
-                "Utiliser des outils logiciels"
-            ],
-            "correct": [
-                "Appliquer des ratios statistiques issus de projets passés"
-            ]
-        },
-        {
-            "id": 50,
-            "type": "multiple_choice",
-            "question": "Quel est le principal avantage de l'estimation par analogie ?",
-            "options": [
-                "Très rapide",
-                "Très précise",
-                "Toujours fiable",
-                "Ne nécessite aucun historique"
-            ],
-            "correct": [
-                "Très rapide"
-            ]
-        }
-    ]
+    {
+        "id": 31,
+        "type": "multiple_choice",
+        "question": "Quel indicateur mesure la performance temporelle d'un projet ?",
+        "options": [
+            "CPI",
+            "SPI",
+            "EAC",
+            "TCPI",
+            "PV"
+        ],
+        "correct": [
+            "SPI"
+        ]
+    },
+    {
+        "id": 32,
+        "type": "multiple_choice",
+        "question": "Si EV = 5000 €, PV = 7000 €, alors :",
+        "options": [
+            "Le projet est en avance",
+            "Le projet est en retard",
+            "Le coût est plus élevé que prévu",
+            "On ne peut pas conclure"
+        ],
+        "correct": [
+            "Le projet est en retard"
+        ]
+    },
+    {
+        "id": 33,
+        "type": "free_answer",
+        "question": "Quelle formule permet de calculer le TCPI (To-Complete Performance Index) ?",
+        "correct": [
+            "(BAC - EV) / (BAC - AC)",
+            "TCPI = (BAC - EV) / (BAC - AC)"
+        ]
+    },
+    {
+        "id": 34,
+        "type": "multiple_choice",
+        "question": "Dans le modèle COCOMO, quel type de projet correspond à des systèmes très complexes avec contraintes fortes et temps réel ?",
+        "options": [
+            "Organique",
+            "Semi-détaché",
+            "Embarqué"
+        ],
+        "correct": [
+            "Embarqué"
+        ]
+    },
+    {
+        "id": 35,
+        "type": "multiple_choice",
+        "question": "Le cost driver ‘RELY' concerne :",
+        "options": [
+            "La compétence des programmeurs",
+            "La fiabilité requise",
+            "La taille de la base de données",
+            "La contrainte mémoire",
+            "La contrainte de temps d'exécution"
+        ],
+        "correct": [
+            "La fiabilité requise"
+        ]
+    },
+    {
+        "id": 36,
+        "type": "multiple_choice",
+        "question": "Dans la répartition COCOMO, quelle phase occupe le plus de temps dans les projets simples (organique) ?",
+        "options": [
+            "Expression des besoins",
+            "Conception générale",
+            "Programmation",
+            "Tests et intégration"
+        ],
+        "correct": [
+            "Programmation"
+        ]
+    },
+    {
+        "id": 37,
+        "type": "multiple_choice",
+        "question": "La méthode ‘Expert Judgement' présente comme principal inconvénient :",
+        "options": [
+            "Une grande lenteur",
+            "Une forte dépendance aux compétences individuelles",
+            "Une difficulté à s'appliquer aux projets logiciels",
+            "Une absence d'historique"
+        ],
+        "correct": [
+            "Une forte dépendance aux compétences individuelles"
+        ]
+    },
+    {
+        "id": 38,
+        "type": "free_answer",
+        "question": "Quel indicateur correspond à la valeur acquise (Earned Value) ? Donnez sa formule.",
+        "correct": [
+            "EV = somme(avancement × coût)",
+            "EV = avancement × coût",
+            "EV"
+        ]
+    },
+    {
+        "id": 39,
+        "type": "multiple_choice",
+        "question": "Quelle méthode d'estimation inclut une réserve pour les incertitudes ?",
+        "options": [
+            "Reserve Analysis",
+            "Analogous Estimating",
+            "Parametric Estimating",
+            "Historical Relationship"
+        ],
+        "correct": [
+            "Reserve Analysis"
+        ]
+    },
+    {
+        "id": 40,
+        "type": "multiple_choice",
+        "question": "Si AC = 8000 €, EV = 6000 €, CPI = ?",
+        "options": [
+            "0,75",
+            "1",
+            "1,25",
+            "Impossible à calculer"
+        ],
+        "correct": [
+            "0,75"
+        ]
+    },
+    {
+        "id": 41,
+        "type": "multiple_choice",
+        "question": "Si CPI < 1 et SPI < 1, alors :",
+        "options": [
+            "Le projet est en avance et en économie",
+            "Le projet est en retard mais en économie",
+            "Le projet est en retard et en surcoût",
+            "Le projet est en avance mais en surcoût"
+        ],
+        "correct": [
+            "Le projet est en retard et en surcoût"
+        ]
+    },
+    {
+        "id": 42,
+        "type": "multiple_choice",
+        "question": "Dans l'estimation du budget, ‘Cost Aggregation' signifie :",
+        "options": [
+            "Ajouter des marges aléatoires",
+            "Multiplier le coût total par un facteur",
+            "Sommer les coûts estimés des activités",
+            "Comparer avec les projets historiques"
+        ],
+        "correct": [
+            "Sommer les coûts estimés des activités"
+        ]
+    },
+    {
+        "id": 43,
+        "type": "multiple_choice",
+        "question": "Dans le suivi des coûts, SV < 0 indique :",
+        "options": [
+            "Un retard",
+            "Une avance",
+            "Un surcoût",
+            "Une économie"
+        ],
+        "correct": [
+            "Un retard"
+        ]
+    },
+    {
+        "id": 44,
+        "type": "free_answer",
+        "question": "Quelle mesure représente le coût effectivement dépensé à un instant t ?",
+        "correct": [
+            "AC",
+            "Actual Cost"
+        ]
+    },
+    {
+        "id": 45,
+        "type": "multiple_choice",
+        "question": "Dans le modèle COCOMO, quel facteur correspond à la compétence des programmeurs ?",
+        "options": [
+            "ACAP",
+            "PCAP",
+            "AEXP",
+            "RELY",
+            "MODP"
+        ],
+        "correct": [
+            "PCAP"
+        ]
+    },
+    {
+        "id": 46,
+        "type": "multiple_choice",
+        "question": "Quel est l'ordre de grandeur typique de la taille maximale d'un projet ‘organique' ?",
+        "options": [
+            "< 10 KLOC",
+            "< 50 KLOC",
+            "< 300 KLOC",
+            "Aucune limite"
+        ],
+        "correct": [
+            "< 50 KLOC"
+        ]
+    },
+    {
+        "id": 47,
+        "type": "free_answer",
+        "question": "Quelle est la formule de l'Effort dans un projet COCOMO embarqué (modèle de base) ?",
+        "correct": [
+            "3.6 × (KLOC)^1.20",
+            "3.6*(KLOC)^1.20"
+        ]
+    },
+    {
+        "id": 48,
+        "type": "multiple_choice",
+        "question": "Dans COCOMO, que signifie un cost driver > 1 ?",
+        "options": [
+            "Une diminution de l'effort",
+            "Une augmentation de l'effort",
+            "Aucun impact",
+            "Une anomalie dans les données"
+        ],
+        "correct": [
+            "Une augmentation de l'effort"
+        ]
+    },
+    {
+        "id": 49,
+        "type": "multiple_choice",
+        "question": "La méthode ‘Historical Relationship' consiste à :",
+        "options": [
+            "Appliquer des ratios statistiques issus de projets passés",
+            "Demander à un expert de chiffrer",
+            "Utiliser la formule à trois points",
+            "Utiliser des outils logiciels"
+        ],
+        "correct": [
+            "Appliquer des ratios statistiques issus de projets passés"
+        ]
+    },
+    {
+        "id": 50,
+        "type": "multiple_choice",
+        "question": "Quel est le principal avantage de l'estimation par analogie ?",
+        "options": [
+            "Très rapide",
+            "Très précise",
+            "Toujours fiable",
+            "Ne nécessite aucun historique"
+        ],
+        "correct": [
+            "Très rapide"
+        ]
+    }
 ]
