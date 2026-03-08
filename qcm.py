@@ -43,6 +43,7 @@ if "question_file" not in st.session_state:
 parts = {
     "Partie 1 - GDP": "questions.json",
     "Partie 2 - Coûts, COCOMO": "questions_2.json",
+    "Partie 3 - Médian du 09/03/2026": "questions_3.json"
 }
 
 if not st.session_state.started:

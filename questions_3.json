@@ -1,0 +1,952 @@
+[
+    {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "Quelles sont les étapes du processus de management des ressources humaines selon le cours GE79 ?",
+        "options": [
+            "Définition du plan RH, Acquisition, Développement, Management, Contrôle",
+            "Recrutement, Formation, Évaluation, Licenciement",
+            "Planification, Exécution, Contrôle, Clôture",
+            "Identification, Qualification, Sélection, Intégration"
+        ],
+        "correct": [
+            "Définition du plan RH, Acquisition, Développement, Management, Contrôle"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "multiple_choice",
+        "question": "Parmi les éléments suivants, lesquels font partie du plan de ressources humaines ?",
+        "options": [
+            "Rôles et responsabilités",
+            "Matrice RACI",
+            "Budget du projet",
+            "Plan de formation",
+            "Planning Gantt",
+            "Stratégie d'acquisition"
+        ],
+        "correct": [
+            "Rôles et responsabilités",
+            "Matrice RACI",
+            "Plan de formation",
+            "Stratégie d'acquisition"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "multiple_choice",
+        "question": "Dans la matrice RACI, que signifie 'A' (Accountable) ?",
+        "options": [
+            "La personne responsable de la réalisation",
+            "La personne qui rend des comptes et valide",
+            "La personne consultée",
+            "La personne informée"
+        ],
+        "correct": [
+            "La personne qui rend des comptes et valide"
+        ]
+    },
+    {
+        "id": 4,
+        "type": "free_answer",
+        "question": "Citez les 5 phases du modèle de Tuckman dans l'ordre.",
+        "number_of_answers": 1,
+        "correct": [
+            "Forming, Storming, Norming, Performing, Adjourning",
+            "forming storming norming performing adjourning"
+        ]
+    },
+    {
+        "id": 5,
+        "type": "multiple_choice",
+        "question": "Dans le modèle de Tuckman, quelle phase correspond à l'apparition des conflits ?",
+        "options": [
+            "Forming",
+            "Storming",
+            "Norming",
+            "Performing"
+        ],
+        "correct": [
+            "Storming"
+        ]
+    },
+    {
+        "id": 6,
+        "type": "multiple_choice",
+        "question": "Selon la théorie X/Y de McGregor, comment décrit-on un employé de type Y ?",
+        "options": [
+            "Un employé qui doit être contrôlé en permanence",
+            "Un employé autonome et responsable",
+            "Un employé peu motivé",
+            "Un employé qui nécessite des directives strictes"
+        ],
+        "correct": [
+            "Un employé autonome et responsable"
+        ]
+    },
+    {
+        "id": 7,
+        "type": "multiple_choice",
+        "question": "Dans la pyramide de Maslow, quel est le besoin du niveau le plus bas (base) ?",
+        "options": [
+            "Sécurité",
+            "Appartenance",
+            "Physiologique",
+            "Estime"
+        ],
+        "correct": [
+            "Physiologique"
+        ]
+    },
+    {
+        "id": 8,
+        "type": "multiple_choice",
+        "question": "Quels styles de management correspondent à un manager qui décide seul ? (plusieurs réponses)",
+        "options": [
+            "Participatif",
+            "Directif",
+            "Persuasif",
+            "Délégatif"
+        ],
+        "correct": [
+            "Directif",
+            "Persuasif"
+        ]
+    },
+    {
+        "id": 9,
+        "type": "multiple_choice",
+        "question": "Quel style de management convient à un collaborateur compétent et motivé ?",
+        "options": [
+            "Directif",
+            "Persuasif",
+            "Participatif",
+            "Délégatif"
+        ],
+        "correct": [
+            "Délégatif"
+        ]
+    },
+    {
+        "id": 10,
+        "type": "free_answer",
+        "question": "Quelle est la formule d'un objectif SMART ? (développez l'acronyme)",
+        "number_of_answers": 1,
+        "correct": [
+            "Spécifique, Mesurable, Ambitieux, Réaliste, Temporel",
+            "Spécifique Mesurable Ambitieux Réaliste Temporel"
+        ]
+    },
+    {
+        "id": 11,
+        "type": "multiple_choice",
+        "question": "Quelle technique de gestion des conflits est privilégiée par le PMP ?",
+        "options": [
+            "Compromising",
+            "Forcing",
+            "Collaborating",
+            "Avoiding"
+        ],
+        "correct": [
+            "Collaborating"
+        ]
+    },
+    {
+        "id": 12,
+        "type": "multiple_choice",
+        "question": "Quelle technique de résolution de conflit consiste à imposer une décision par autorité formelle ?",
+        "options": [
+            "Collaborating",
+            "Smoothing",
+            "Avoiding",
+            "Forcing"
+        ],
+        "correct": [
+            "Forcing"
+        ]
+    },
+    {
+        "id": 13,
+        "type": "multiple_choice",
+        "question": "Quand utiliser la technique 'Compromising' pour résoudre un conflit ?",
+        "options": [
+            "Quand les enjeux sont faibles et le conflit mineur",
+            "En situation d'urgence ou de sécurité critique",
+            "Quand le temps est limité et le pouvoir équilibré",
+            "Pour les conflits techniques avec une équipe mature"
+        ],
+        "correct": [
+            "Quand le temps est limité et le pouvoir équilibré"
+        ]
+    },
+    {
+        "id": 14,
+        "type": "multiple_choice",
+        "question": "Quels sont les objectifs du leadership transformationnel ? (plusieurs réponses)",
+        "options": [
+            "Inspirer une vision",
+            "Imposer des décisions par autorité",
+            "Développer l'autonomie",
+            "Élever la maturité collective",
+            "Baser la motivation sur récompense/sanction"
+        ],
+        "correct": [
+            "Inspirer une vision",
+            "Développer l'autonomie",
+            "Élever la maturité collective"
+        ]
+    },
+    {
+        "id": 15,
+        "type": "multiple_choice",
+        "question": "Quelles sont les 4 dimensions du leadership transformationnel ?",
+        "options": [
+            "Influence idéalisée, Motivation inspirante, Stimulation intellectuelle, Considération individualisée",
+            "Directif, Participatif, Délégatif, Persuasif",
+            "Planification, Organisation, Direction, Contrôle",
+            "Vision, Mission, Objectifs, Résultats"
+        ],
+        "correct": [
+            "Influence idéalisée, Motivation inspirante, Stimulation intellectuelle, Considération individualisée"
+        ]
+    },
+    {
+        "id": 16,
+        "type": "multiple_choice",
+        "question": "Dans une organisation matricielle, quelles sont les deux lignes hiérarchiques d'un membre d'équipe ?",
+        "options": [
+            "Le sponsor et le client",
+            "Le manager fonctionnel et le chef de projet",
+            "Le chef de projet et le directeur général",
+            "Le fournisseur et le manager"
+        ],
+        "correct": [
+            "Le manager fonctionnel et le chef de projet"
+        ]
+    },
+    {
+        "id": 17,
+        "type": "multiple_choice",
+        "question": "Dans quelle type de matrice organisationnelle le pouvoir du chef de projet est-il très limité ?",
+        "options": [
+            "Matrice forte",
+            "Matrice équilibrée",
+            "Matrice faible",
+            "Matrice projetisée"
+        ],
+        "correct": [
+            "Matrice faible"
+        ]
+    },
+    {
+        "id": 18,
+        "type": "multiple_choice",
+        "question": "Quelle est la dimension du modèle de Hofstede qui impacte l'acceptation ou non de l'autorité du chef de projet ?",
+        "options": [
+            "Masculinité / féminité",
+            "Distance hiérarchique",
+            "Évitement de l'incertitude",
+            "Indulgence / retenue"
+        ],
+        "correct": [
+            "Distance hiérarchique"
+        ]
+    },
+    {
+        "id": 19,
+        "type": "free_answer",
+        "question": "Selon le cours, quel pourcentage du travail du chef de projet représente la communication ?",
+        "number_of_answers": 1,
+        "correct": [
+            "80%",
+            "80 %",
+            "80"
+        ]
+    },
+    {
+        "id": 20,
+        "type": "free_answer",
+        "question": "Quelle est la formule pour calculer le nombre de canaux de communication ?",
+        "number_of_answers": 1,
+        "correct": [
+            "n(n-1)/2",
+            "n*(n-1)/2",
+            "n(n−1)/2"
+        ]
+    },
+    {
+        "id": 21,
+        "type": "multiple_choice",
+        "question": "À qui appartient la responsabilité de la compréhension lors d'une communication ?",
+        "options": [
+            "Au récepteur",
+            "Au manager",
+            "À l'émetteur",
+            "Au chef de projet uniquement"
+        ],
+        "correct": [
+            "À l'émetteur"
+        ]
+    },
+    {
+        "id": 22,
+        "type": "multiple_choice",
+        "question": "Quels éléments composent une communication selon le cours ? (plusieurs réponses)",
+        "options": [
+            "Émetteur",
+            "Média",
+            "Bruit",
+            "Récepteurs",
+            "Signature",
+            "Accusé de réception"
+        ],
+        "correct": [
+            "Émetteur",
+            "Média",
+            "Bruit",
+            "Récepteurs"
+        ]
+    },
+    {
+        "id": 23,
+        "type": "multiple_choice",
+        "question": "Dans la matrice Pouvoir/Intérêt des stakeholders, que faire avec un stakeholder à fort pouvoir et faible intérêt ?",
+        "options": [
+            "Manager étroitement",
+            "Garder satisfait",
+            "Suivre avec effort minimal",
+            "Garder informé"
+        ],
+        "correct": [
+            "Garder satisfait"
+        ]
+    },
+    {
+        "id": 24,
+        "type": "multiple_choice",
+        "question": "Dans la matrice Pouvoir/Intérêt des stakeholders, que faire avec un stakeholder à fort pouvoir et fort intérêt ?",
+        "options": [
+            "Garder satisfait",
+            "Garder informé",
+            "Manager étroitement",
+            "Suivre avec effort minimal"
+        ],
+        "correct": [
+            "Manager étroitement"
+        ]
+    },
+    {
+        "id": 25,
+        "type": "multiple_choice",
+        "question": "Parmi les facteurs suivants, lequel constitue un 'bruit' dans la communication de projet ?",
+        "options": [
+            "La fréquence d'envoi d'un mail",
+            "Le langage, les connaissances techniques, la culture entreprise",
+            "Le nombre de récepteurs",
+            "La signature électronique du message"
+        ],
+        "correct": [
+            "Le langage, les connaissances techniques, la culture entreprise"
+        ]
+    },
+    {
+        "id": 26,
+        "type": "multiple_choice",
+        "question": "Quels sont les risques de communication dans une organisation matricielle ? (plusieurs réponses)",
+        "options": [
+            "Messages contradictoires",
+            "Conflits de priorité",
+            "Trop de réunions formelles",
+            "Manque de clarté"
+        ],
+        "correct": [
+            "Messages contradictoires",
+            "Conflits de priorité",
+            "Manque de clarté"
+        ]
+    },
+    {
+        "id": 27,
+        "type": "multiple_choice",
+        "question": "Pour quelles raisons fait-on appel à des sous-traitants / fournisseurs dans un projet ? (plusieurs réponses)",
+        "options": [
+            "Apporter des compétences spécifiques",
+            "Réduire les coûts",
+            "Transférer un risque",
+            "Garantir la certification ISO",
+            "Apporter des renforts dans l'équipe"
+        ],
+        "correct": [
+            "Apporter des compétences spécifiques",
+            "Réduire les coûts",
+            "Transférer un risque",
+            "Apporter des renforts dans l'équipe"
+        ]
+    },
+    {
+        "id": 28,
+        "type": "multiple_choice",
+        "question": "Quel type de contrat transfère le plus de risque vers le vendeur ?",
+        "options": [
+            "Cost Plus Fixed Fee (CPFF)",
+            "Time & Material (T&M)",
+            "Firm Fixed Price (FFP)",
+            "Cost Plus Incentive Fee (CPIF)"
+        ],
+        "correct": [
+            "Firm Fixed Price (FFP)"
+        ]
+    },
+    {
+        "id": 29,
+        "type": "multiple_choice",
+        "question": "Quel type de contrat représente le risque le plus élevé pour l'acheteur ?",
+        "options": [
+            "Fixed Price (FFP)",
+            "Time & Material (T&M)",
+            "Cost-Reimbursable (CR)",
+            "Fixed Price Incentive Fee (FPIF)"
+        ],
+        "correct": [
+            "Cost-Reimbursable (CR)"
+        ]
+    },
+    {
+        "id": 30,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce qu'un contrat Time & Material (T&M) ?",
+        "options": [
+            "Un contrat à prix fixe sans variable",
+            "Un contrat hybride avec taux horaire fixé mais quantité variable",
+            "Un contrat de remboursement total des coûts",
+            "Un contrat avec pénalités et incentives uniquement"
+        ],
+        "correct": [
+            "Un contrat hybride avec taux horaire fixé mais quantité variable"
+        ]
+    },
+    {
+        "id": 31,
+        "type": "multiple_choice",
+        "question": "Dans quel ordre le PMP recommande-t-il de gérer un litige (claim) avec un fournisseur ?",
+        "options": [
+            "Arbitrage → Médiation → Négociation → Litige judiciaire",
+            "Négociation → Médiation → Arbitrage → Litige judiciaire",
+            "Litige judiciaire → Arbitrage → Médiation → Négociation",
+            "Médiation → Négociation → Arbitrage → Tribunal"
+        ],
+        "correct": [
+            "Négociation → Médiation → Arbitrage → Litige judiciaire"
+        ]
+    },
+    {
+        "id": 32,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce qu'un 'claim' dans le contexte procurement ?",
+        "options": [
+            "Une demande de changement de scope",
+            "Un différend sur l'interprétation contractuelle, un retard imputé ou un surcoût contesté",
+            "Un bon de commande non validé",
+            "Une offre commerciale d'un fournisseur"
+        ],
+        "correct": [
+            "Un différend sur l'interprétation contractuelle, un retard imputé ou un surcoût contesté"
+        ]
+    },
+    {
+        "id": 33,
+        "type": "multiple_choice",
+        "question": "Quelles étapes sont nécessaires lors de la clôture d'un contrat fournisseur ? (plusieurs réponses)",
+        "options": [
+            "Vérification des livrables",
+            "Acceptation formelle",
+            "Paiement final",
+            "Résiliation anticipée",
+            "Archivage",
+            "Leçons apprises"
+        ],
+        "correct": [
+            "Vérification des livrables",
+            "Acceptation formelle",
+            "Paiement final",
+            "Archivage",
+            "Leçons apprises"
+        ]
+    },
+    {
+        "id": 34,
+        "type": "multiple_choice",
+        "question": "Quelle est la différence entre un risque et une issue (problème) ?",
+        "options": [
+            "Un risque est certain, une issue est incertaine",
+            "Un risque est incertain et futur, une issue est certaine et présente",
+            "Il n'y a pas de différence",
+            "Un risque est interne, une issue est externe"
+        ],
+        "correct": [
+            "Un risque est incertain et futur, une issue est certaine et présente"
+        ]
+    },
+    {
+        "id": 35,
+        "type": "multiple_choice",
+        "question": "Quel outil est utilisé pour suivre les risques identifiés ?",
+        "options": [
+            "Issue Log",
+            "Risk Register",
+            "Change Request",
+            "Lessons Learned"
+        ],
+        "correct": [
+            "Risk Register"
+        ]
+    },
+    {
+        "id": 36,
+        "type": "multiple_choice",
+        "question": "Parmi les éléments suivants, lesquels font partie des processus du management des risques ? (plusieurs réponses)",
+        "options": [
+            "Plan Risk Management",
+            "Identify Risks",
+            "Perform Qualitative Risk Analysis",
+            "Plan Procurement",
+            "Monitor Risks",
+            "Manage Stakeholders"
+        ],
+        "correct": [
+            "Plan Risk Management",
+            "Identify Risks",
+            "Perform Qualitative Risk Analysis",
+            "Monitor Risks"
+        ]
+    },
+    {
+        "id": 37,
+        "type": "multiple_choice",
+        "question": "La technique Delphi est utilisée pour identifier les risques. Comment fonctionne-t-elle ?",
+        "options": [
+            "Réunion collective en salle avec vote à main levée",
+            "Collecte anonyme et itérative d'opinions d'experts jusqu'à convergence",
+            "Analyse SWOT réalisée par le chef de projet seul",
+            "Brainstorming intensif en 1 heure avec post-its"
+        ],
+        "correct": [
+            "Collecte anonyme et itérative d'opinions d'experts jusqu'à convergence"
+        ]
+    },
+    {
+        "id": 38,
+        "type": "multiple_choice",
+        "question": "Que signifie SWOT en gestion des risques ?",
+        "options": [
+            "Strengths, Weaknesses, Opportunities, Threats",
+            "Scope, Work, Objectives, Timeline",
+            "Schedule, Work, Operations, Tasks",
+            "Strategy, Workflow, Output, Target"
+        ],
+        "correct": [
+            "Strengths, Weaknesses, Opportunities, Threats"
+        ]
+    },
+    {
+        "id": 39,
+        "type": "multiple_choice",
+        "question": "Dans l'analyse qualitative des risques, qu'est-ce qu'un risque 'Extreme' ?",
+        "options": [
+            "Probabilité rare avec impact catastrophique",
+            "Probabilité modérée ou plus avec impact majeur ou catastrophique",
+            "Probabilité certaine avec impact insignifiant",
+            "Probabilité unlikely avec impact minor"
+        ],
+        "correct": [
+            "Probabilité modérée ou plus avec impact majeur ou catastrophique"
+        ]
+    },
+    {
+        "id": 40,
+        "type": "multiple_choice",
+        "question": "Comment calcule-t-on l'enveloppe financière d'un risque en analyse quantitative ?",
+        "options": [
+            "Probabilité + Impact + Conséquences",
+            "Probabilité × Impact × Conséquences financières",
+            "Impact / Probabilité × Budget total",
+            "Conséquences × Nombre de risques identifiés"
+        ],
+        "correct": [
+            "Probabilité × Impact × Conséquences financières"
+        ]
+    },
+    {
+        "id": 41,
+        "type": "multiple_choice",
+        "question": "Quelles sont les stratégies de réponse aux menaces (risques négatifs) ? (plusieurs réponses)",
+        "options": [
+            "Éviter",
+            "Exploiter",
+            "Accepter",
+            "Mitiger",
+            "Optimiser",
+            "Transférer"
+        ],
+        "correct": [
+            "Éviter",
+            "Accepter",
+            "Mitiger",
+            "Transférer"
+        ]
+    },
+    {
+        "id": 42,
+        "type": "multiple_choice",
+        "question": "Quelles sont les 4 stratégies de réponse aux opportunités (risques positifs) ?",
+        "options": [
+            "Éviter, Accepter, Mitiger, Transférer",
+            "Exploiter, Accepter, Optimiser, Partager",
+            "Ignorer, Planifier, Exécuter, Capitaliser",
+            "Analyser, Budgéter, Implémenter, Surveiller"
+        ],
+        "correct": [
+            "Exploiter, Accepter, Optimiser, Partager"
+        ]
+    },
+    {
+        "id": 43,
+        "type": "multiple_choice",
+        "question": "Parmi les éléments suivants, lesquels sont des coûts de conformité ? (plusieurs réponses)",
+        "options": [
+            "Formation",
+            "Rework",
+            "Audits qualité",
+            "Garanties",
+            "Tests et recettes",
+            "Gaspillage"
+        ],
+        "correct": [
+            "Formation",
+            "Audits qualité",
+            "Tests et recettes"
+        ]
+    },
+    {
+        "id": 44,
+        "type": "multiple_choice",
+        "question": "Parmi les éléments suivants, lesquels sont des coûts de non-conformité internes ?",
+        "options": [
+            "Audits qualité, Tests, Formation",
+            "Gaspillage, Rework, Retard, Pénurie",
+            "Plaintes, Garanties, Rappels",
+            "Planning, Contrôle des spécifications"
+        ],
+        "correct": [
+            "Gaspillage, Rework, Retard, Pénurie"
+        ]
+    },
+    {
+        "id": 45,
+        "type": "multiple_choice",
+        "question": "Quels sont les principes clés du management de la qualité cités dans le cours ? (plusieurs réponses)",
+        "options": [
+            "Satisfaction du client",
+            "Prévention plutôt qu'inspection",
+            "Maximisation du profit",
+            "Responsabilité de la Direction",
+            "Amélioration Continue"
+        ],
+        "correct": [
+            "Satisfaction du client",
+            "Prévention plutôt qu'inspection",
+            "Responsabilité de la Direction",
+            "Amélioration Continue"
+        ]
+    },
+    {
+        "id": 46,
+        "type": "multiple_choice",
+        "question": "Que signifie PDCA ?",
+        "options": [
+            "Plan, Deploy, Check, Archive",
+            "Plan, Do, Check, Act",
+            "Prepare, Design, Control, Adjust",
+            "Plan, Design, Create, Analyze"
+        ],
+        "correct": [
+            "Plan, Do, Check, Act"
+        ]
+    },
+    {
+        "id": 47,
+        "type": "multiple_choice",
+        "question": "À quelle étape du PDCA vérifie-t-on si le standard est atteint ?",
+        "options": [
+            "Plan",
+            "Do",
+            "Check",
+            "Act"
+        ],
+        "correct": [
+            "Check"
+        ]
+    },
+    {
+        "id": 48,
+        "type": "multiple_choice",
+        "question": "Quelle méthode qualité consiste à poser 5 questions 'Pourquoi ?' successives pour trouver la cause racine ?",
+        "options": [
+            "Pareto",
+            "Ishikawa / 5 Why",
+            "PDCA",
+            "SWOT"
+        ],
+        "correct": [
+            "Ishikawa / 5 Why"
+        ]
+    },
+    {
+        "id": 49,
+        "type": "multiple_choice",
+        "question": "Que représente le principe de Pareto en gestion de la qualité ?",
+        "options": [
+            "100% des problèmes viennent d'une seule cause",
+            "80% des problèmes sont amenés par 20% des causes",
+            "50% des coûts sont liés à la non-qualité",
+            "20% des tests couvrent 80% des fonctionnalités"
+        ],
+        "correct": [
+            "80% des problèmes sont amenés par 20% des causes"
+        ]
+    },
+    {
+        "id": 50,
+        "type": "multiple_choice",
+        "question": "Combien d'étapes comporte la méthode 8D ?",
+        "options": [
+            "5",
+            "6",
+            "8",
+            "10"
+        ],
+        "correct": [
+            "8"
+        ]
+    },
+    {
+        "id": 51,
+        "type": "multiple_choice",
+        "question": "Quelle est la première étape de la méthode 8D ?",
+        "options": [
+            "Décrire le problème",
+            "Constitution d'une équipe pluridisciplinaire",
+            "Identifier les actions immédiates",
+            "Déterminer les causes racines"
+        ],
+        "correct": [
+            "Constitution d'une équipe pluridisciplinaire"
+        ]
+    },
+    {
+        "id": 52,
+        "type": "multiple_choice",
+        "question": "Quels sont les avantages du QRQC ? (plusieurs réponses)",
+        "options": [
+            "Enregistrement et suivi des incidents",
+            "Résolution rapide du problème",
+            "Chronophage",
+            "Implication du management",
+            "Analyse multimétiers",
+            "Difficulté à réunir les personnes"
+        ],
+        "correct": [
+            "Enregistrement et suivi des incidents",
+            "Résolution rapide du problème",
+            "Implication du management",
+            "Analyse multimétiers"
+        ]
+    },
+    {
+        "id": 53,
+        "type": "multiple_choice",
+        "question": "Dans le QRQC, quel est le délai pour mettre en place une action de sécurisation afin de protéger le client ?",
+        "options": [
+            "0-4 heures",
+            "24 heures",
+            "5 jours",
+            "30 jours"
+        ],
+        "correct": [
+            "24 heures"
+        ]
+    },
+    {
+        "id": 54,
+        "type": "multiple_choice",
+        "question": "Que signifie FTA dans le contexte QRQC ?",
+        "options": [
+            "Final Test Analysis",
+            "Factors Tree Analysis",
+            "Fault Tolerance Assessment",
+            "Functional Task Audit"
+        ],
+        "correct": [
+            "Factors Tree Analysis"
+        ]
+    },
+    {
+        "id": 55,
+        "type": "multiple_choice",
+        "question": "Quelles sont les 4M utilisées dans le FTA (Factors Tree Analysis) ?",
+        "options": [
+            "Management, Méthode, Machine, Mesure",
+            "Matière, Machine, Méthode, Main-d'œuvre",
+            "Matériel, Mission, Modèle, Management",
+            "Mesure, Milieu, Méthode, Main-d'œuvre"
+        ],
+        "correct": [
+            "Matière, Machine, Méthode, Main-d'œuvre"
+        ]
+    },
+    {
+        "id": 56,
+        "type": "multiple_choice",
+        "question": "Quels sont les niveaux de maturité du modèle CMMI présentés dans le cours ?",
+        "options": [
+            "Initial, Défini, Géré, Optimisé, Avancé",
+            "Initial, Piloté, Standardisé, Mesuré, Optimisé",
+            "Bronze, Argent, Or, Platine, Diamant",
+            "Niveau 0 à Niveau 4"
+        ],
+        "correct": [
+            "Initial, Piloté, Standardisé, Mesuré, Optimisé"
+        ]
+    },
+    {
+        "id": 57,
+        "type": "multiple_choice",
+        "question": "Au niveau 1 (initial) du CMMI, quel est le pourcentage de retours en arrière ?",
+        "options": [
+            "< 5%",
+            "25% à 50%",
+            "> 50%",
+            "5% à 15%"
+        ],
+        "correct": [
+            "> 50%"
+        ]
+    },
+    {
+        "id": 58,
+        "type": "multiple_choice",
+        "question": "Quel est l'ordre d'évolution historique de la qualité selon le cours ?",
+        "options": [
+            "Assurance qualité → Contrôle produit fini → Amélioration continue → Qualité totale",
+            "Contrôle produit fini → Assurance qualité → Amélioration continue → Qualité totale",
+            "Qualité totale → Amélioration continue → Assurance qualité → Contrôle produit fini",
+            "Amélioration continue → Contrôle produit fini → Qualité totale → Assurance qualité"
+        ],
+        "correct": [
+            "Contrôle produit fini → Assurance qualité → Amélioration continue → Qualité totale"
+        ]
+    },
+    {
+        "id": 59,
+        "type": "multiple_choice",
+        "question": "Selon le cours, entre combien et combien de pourcents du coût de développement représente le Cost of Quality ?",
+        "options": [
+            "5% et 10%",
+            "10% et 20%",
+            "23% et 34%",
+            "40% et 60%"
+        ],
+        "correct": [
+            "23% et 34%"
+        ]
+    },
+    {
+        "id": 60,
+        "type": "multiple_choice",
+        "question": "Quelle est la différence entre la qualité projet et la qualité produit ?",
+        "options": [
+            "Il n'y a aucune différence, les deux sont identiques",
+            "La qualité projet porte sur les moyens mis en œuvre, la qualité produit sur la conformité aux exigences du livrable",
+            "La qualité produit concerne le management, la qualité projet concerne le client",
+            "La qualité projet est évaluée par le fournisseur, la qualité produit par le chef de projet"
+        ],
+        "correct": [
+            "La qualité projet porte sur les moyens mis en œuvre, la qualité produit sur la conformité aux exigences du livrable"
+        ]
+    },
+    {
+        "id": 61,
+        "type": "multiple_choice",
+        "question": "Parmi les éléments suivants, lesquels font partie des principes du SMQ ? (plusieurs réponses)",
+        "options": [
+            "Satisfaction client",
+            "Responsabilité de la direction",
+            "Maximisation des marges",
+            "Approche processus",
+            "Amélioration continue",
+            "Centralisation des décisions"
+        ],
+        "correct": [
+            "Satisfaction client",
+            "Responsabilité de la direction",
+            "Approche processus",
+            "Amélioration continue"
+        ]
+    },
+    {
+        "id": 62,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce que le 'gold plating' dans le cadre du SMQ ?",
+        "options": [
+            "Un label de qualité supérieure attribué aux meilleurs fournisseurs",
+            "Le fait d'aller au-delà des exigences du client, ce qui est à éviter",
+            "Une technique de revêtement utilisée en industrie",
+            "Un bonus de performance accordé à l'équipe projet"
+        ],
+        "correct": [
+            "Le fait d'aller au-delà des exigences du client, ce qui est à éviter"
+        ]
+    },
+    {
+        "id": 63,
+        "type": "multiple_choice",
+        "question": "Dans la hiérarchie documentaire qualité, quel document décrit le processus ?",
+        "options": [
+            "Les Instructions",
+            "Les Procédures",
+            "Le Manuel qualité",
+            "Les Formulaires"
+        ],
+        "correct": [
+            "Le Manuel qualité"
+        ]
+    },
+    {
+        "id": 64,
+        "type": "multiple_choice",
+        "question": "Quelle est la principale différence entre le leadership transformationnel et le leadership transactionnel ?",
+        "options": [
+            "Le transformationnel est basé sur récompense/sanction, le transactionnel sur la vision",
+            "Le transformationnel inspire une vision et transforme les comportements, le transactionnel est basé sur récompense/sanction",
+            "Il n'y a pas de différence pratique entre les deux",
+            "Le transactionnel s'applique aux projets agiles, le transformationnel aux projets en V"
+        ],
+        "correct": [
+            "Le transformationnel inspire une vision et transforme les comportements, le transactionnel est basé sur récompense/sanction"
+        ]
+    },
+    {
+        "id": 65,
+        "type": "multiple_choice",
+        "question": "Quel outil qualité permet de suivre la stabilité d'un processus dans le temps en visualisant les variations autour d'une moyenne avec des limites de contrôle (UCL/LCL) ?",
+        "options": [
+            "Diagramme de Pareto",
+            "Ishikawa",
+            "Control Chart (carte de contrôle)",
+            "Diagramme PDCA"
+        ],
+        "correct": [
+            "Control Chart (carte de contrôle)"
+        ]
+    }
+]
