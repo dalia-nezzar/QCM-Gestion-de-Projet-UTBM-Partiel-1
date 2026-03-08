@@ -1210,10 +1210,10 @@
         "type": "multiple_choice",
         "question": "Que signifient RFP et RFQ dans le contexte procurement ?",
         "options": [
-            "Request for Project / Request for Query",
+            "Request for Proposal / Request for Quotation",
             "Request for Payment / Request for Quality",
             "Report for Procurement / Report for Qualification",
-            "Request for Proposal / Request for Quotation"
+            "Request for Project / Request for Query"
         ],
         "correct": [
             "Request for Proposal / Request for Quotation"
@@ -1225,10 +1225,9 @@
         "question": "Que désigne le terme 'Procurement' en gestion de projet ?",
         "options": [
             "La gestion des ressources humaines internes",
+            "Le processus d'approvisionnement : acquérir biens/services auprès de fournisseurs externes",
             "La gestion de la qualité des livrables",
-            "Le contrôle des risques contractuels",
-            "Le processus d'approvisionnement : acquérir biens/services auprès de fournisseurs externes"
-
+            "Le contrôle des risques contractuels"
         ],
         "correct": [
             "Le processus d'approvisionnement : acquérir biens/services auprès de fournisseurs externes"
@@ -1646,7 +1645,7 @@
     {
         "id": 116,
         "type": "multiple_choice",
-        "question": "Un désaccord mineur survient en fin de réunion sur un sujet de faible enjeu. Le chef de projet préfère ne pas s'y attarder. Quelle technique utilise-t-il ?",
+        "question": "Un désaccord mineur survient en fin de réunion. Le chef de projet dit : 'On est globalement d'accord, cette divergence est mineure, l'essentiel c'est qu'on avance ensemble.' Quelle technique utilise-t-il ?",
         "options": [
             "Collaborating",
             "Forcing",
@@ -1660,7 +1659,7 @@
     {
         "id": 117,
         "type": "multiple_choice",
-        "question": "Un conflit éclate mais le chef de projet manque d'informations pour trancher. Il préfère attendre d'en savoir plus. Quelle technique utilise-t-il ?",
+        "question": "Un conflit éclate en réunion mais le chef de projet n'a pas assez d'informations pour trancher. Il dit : 'Ce n'est pas le bon moment pour traiter ça, on reporte.' Quelle technique utilise-t-il ?",
         "options": [
             "Collaborating",
             "Compromising",
