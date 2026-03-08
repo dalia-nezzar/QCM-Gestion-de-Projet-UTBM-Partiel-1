@@ -1160,5 +1160,905 @@
             "ISO 9001",
             "ISO 14001"
         ]
+    },
+    {
+        "id": 81,
+        "type": "free_answer",
+        "question": "Que signifie l'acronyme SMQ ?",
+        "number_of_answers": 1,
+        "correct": [
+            "Système de Management de la Qualité",
+            "système de management de la qualité"
+        ]
+    },
+    {
+        "id": 82,
+        "type": "free_answer",
+        "question": "Que signifie l'acronyme PMP ?",
+        "number_of_answers": 1,
+        "correct": [
+            "Project Management Plan",
+            "project management plan"
+        ]
+    },
+    {
+        "id": 83,
+        "type": "multiple_choice",
+        "question": "Que signifie CMMI ?",
+        "options": [
+            "Capability Maturity Model Integration",
+            "Continuous Management and Monitoring Index",
+            "Control Model for Mature Improvement",
+            "Common Methodology for Management Improvement"
+        ],
+        "correct": [
+            "Capability Maturity Model Integration"
+        ]
+    },
+    {
+        "id": 84,
+        "type": "free_answer",
+        "question": "Que signifie l'acronyme QRQC ?",
+        "number_of_answers": 1,
+        "correct": [
+            "Quick Response Quality Control",
+            "quick response quality control"
+        ]
+    },
+    {
+        "id": 85,
+        "type": "multiple_choice",
+        "question": "Que signifient RFP et RFQ dans le contexte procurement ?",
+        "options": [
+            "Request for Project / Request for Query",
+            "Request for Payment / Request for Quality",
+            "Report for Procurement / Report for Qualification",
+            "Request for Proposal / Request for Quotation"
+        ],
+        "correct": [
+            "Request for Proposal / Request for Quotation"
+        ]
+    },
+    {
+        "id": 86,
+        "type": "multiple_choice",
+        "question": "Que désigne le terme 'Procurement' en gestion de projet ?",
+        "options": [
+            "La gestion des ressources humaines internes",
+            "La gestion de la qualité des livrables",
+            "Le contrôle des risques contractuels",
+            "Le processus d'approvisionnement : acquérir biens/services auprès de fournisseurs externes"
+
+        ],
+        "correct": [
+            "Le processus d'approvisionnement : acquérir biens/services auprès de fournisseurs externes"
+        ]
+    },
+    {
+        "id": 87,
+        "type": "multiple_choice",
+        "question": "À quoi sert un diagramme d'Ishikawa (arête de poisson) ?",
+        "options": [
+            "Suivre l'évolution d'un indicateur dans le temps",
+            "Identifier et structurer les causes potentielles d'un problème",
+            "Prioriser les problèmes selon leur fréquence",
+            "Planifier les tâches d'un projet dans le temps"
+        ],
+        "correct": [
+            "Identifier et structurer les causes potentielles d'un problème"
+        ]
+    },
+    {
+        "id": 88,
+        "type": "multiple_choice",
+        "question": "À quoi sert un diagramme de Pareto ?",
+        "options": [
+            "Identifier les causes racines d'un problème via 5 pourquoi",
+            "Se concentrer sur les 20% de causes qui génèrent 80% des problèmes",
+            "Suivre la stabilité d'un processus dans le temps",
+            "Planifier les actions correctives dans un 8D"
+        ],
+        "correct": [
+            "Se concentrer sur les 20% de causes qui génèrent 80% des problèmes"
+        ]
+    },
+    {
+        "id": 89,
+        "type": "multiple_choice",
+        "question": "À quoi servent les Control Charts (cartes de contrôle) ?",
+        "options": [
+            "Identifier les causes racines d'un défaut",
+            "Classer les problèmes par ordre de fréquence",
+            "Surveiller la stabilité et la variabilité d'un processus dans le temps",
+            "Définir les rôles et responsabilités de l'équipe qualité"
+        ],
+        "correct": [
+            "Surveiller la stabilité et la variabilité d'un processus dans le temps"
+        ]
+    },
+    {
+        "id": 90,
+        "type": "multiple_choice",
+        "question": "Dans un Control Chart, que représentent UCL et LCL ?",
+        "options": [
+            "Upper Cost Limit et Lower Cost Limit",
+            "Upper Control Limit et Lower Control Limit (limites de contrôle haute et basse)",
+            "Unique Check Level et Last Check Level",
+            "Unit Control Log et Line Control Log"
+        ],
+        "correct": [
+            "Upper Control Limit et Lower Control Limit (limites de contrôle haute et basse)"
+        ]
+    },
+    {
+        "id": 91,
+        "type": "multiple_choice",
+        "question": "Dans la hiérarchie documentaire qualité, à quoi servent les procédures ?",
+        "options": [
+            "À décrire le processus global (le QUOI)",
+            "À décrire les activités du processus",
+            "À décrire les tâches précises (le COMMENT)",
+            "À apporter la preuve du fonctionnement du système"
+        ],
+        "correct": [
+            "À décrire les activités du processus"
+        ]
+    },
+    {
+        "id": 92,
+        "type": "multiple_choice",
+        "question": "Dans la hiérarchie documentaire qualité, à quoi servent les instructions ?",
+        "options": [
+            "À décrire le processus global",
+            "À décrire les activités du processus",
+            "À décrire les tâches précises (le COMMENT faire)",
+            "À servir de supports aux enregistrements"
+        ],
+        "correct": [
+            "À décrire les tâches précises (le COMMENT faire)"
+        ]
+    },
+    {
+        "id": 93,
+        "type": "multiple_choice",
+        "question": "Dans la hiérarchie documentaire qualité, à quoi servent les enregistrements ?",
+        "options": [
+            "À décrire les activités du processus",
+            "À apporter la preuve du fonctionnement du système",
+            "À décrire les tâches précises",
+            "À servir de supports aux formulaires"
+        ],
+        "correct": [
+            "À apporter la preuve du fonctionnement du système"
+        ]
+    },
+    {
+        "id": 94,
+        "type": "multiple_choice",
+        "question": "À quoi servent les formulaires dans la hiérarchie documentaire qualité ?",
+        "options": [
+            "À décrire le processus global",
+            "À apporter la preuve du fonctionnement du système",
+            "À servir de supports aux enregistrements",
+            "À décrire les activités du processus"
+        ],
+        "correct": [
+            "À servir de supports aux enregistrements"
+        ]
+    },
+    {
+        "id": 95,
+        "type": "multiple_choice",
+        "question": "Que fait-on durant la phase 'Plan' du PDCA ?",
+        "options": [
+            "On met en pratique la méthode et on mesure les résultats",
+            "On améliore le système de travail et on répète les solutions efficaces",
+            "On définit les problèmes, établit des objectifs et choisit les méthodes",
+            "On vérifie si le standard est atteint"
+        ],
+        "correct": [
+            "On définit les problèmes, établit des objectifs et choisit les méthodes"
+        ]
+    },
+    {
+        "id": 96,
+        "type": "multiple_choice",
+        "question": "Que fait-on durant la phase 'Do' du PDCA ?",
+        "options": [
+            "On définit les objectifs et choisit les méthodes",
+            "On met en pratique la méthode et on mesure les résultats",
+            "On vérifie si le standard est atteint et ce qui fonctionne ou non",
+            "On améliore le système et on pérennise les solutions efficaces"
+        ],
+        "correct": [
+            "On met en pratique la méthode et on mesure les résultats"
+        ]
+    },
+    {
+        "id": 97,
+        "type": "multiple_choice",
+        "question": "Que fait-on durant la phase 'Check' du PDCA ?",
+        "options": [
+            "On met en pratique la méthode choisie",
+            "On définit les objectifs et les méthodes",
+            "On vérifie si le standard est atteint et ce qui fonctionne ou non",
+            "On améliore le système de travail"
+        ],
+        "correct": [
+            "On vérifie si le standard est atteint et ce qui fonctionne ou non"
+        ]
+    },
+    {
+        "id": 98,
+        "type": "multiple_choice",
+        "question": "Que fait-on durant la phase 'Act' du PDCA ?",
+        "options": [
+            "On mesure et enregistre les résultats",
+            "On vérifie si le standard est atteint",
+            "On améliore le système de travail et on répète les solutions efficaces",
+            "On définit les objectifs et choisit les méthodes"
+        ],
+        "correct": [
+            "On améliore le système de travail et on répète les solutions efficaces"
+        ]
+    },
+    {
+        "id": 99,
+        "type": "multiple_choice",
+        "question": "Quelle est la principale différence entre un service (unité opérationnelle) et le management des processus ?",
+        "options": [
+            "Le service a une responsabilité totale du résultat, le processus une responsabilité limitée",
+            "Le service est transversal et pluridisciplinaire, le processus est spécialisé",
+            "Le service a une fonction spécialisée et limitée, le processus est transversal avec responsabilité totale du résultat",
+            "Il n'y a pas de différence significative entre les deux approches"
+        ],
+        "correct": [
+            "Le service a une fonction spécialisée et limitée, le processus est transversal avec responsabilité totale du résultat"
+        ]
+    },
+    {
+        "id": 100,
+        "type": "multiple_choice",
+        "question": "Par rapport à une organisation par services, que permet le management des processus ? (plusieurs réponses)",
+        "options": [
+            "Diminution des gaspillages",
+            "Augmentation des rigidités",
+            "Forte motivation et implication",
+            "Fluidité et rapidité d'exécution",
+            "Multiplication des interlocuteurs spécialisés"
+        ],
+        "correct": [
+            "Diminution des gaspillages",
+            "Forte motivation et implication",
+            "Fluidité et rapidité d'exécution"
+        ]
+    },
+    {
+        "id": 101,
+        "type": "multiple_choice",
+        "question": "Dans le management des processus, qui est responsable du résultat final ?",
+        "options": [
+            "Le directeur général",
+            "Chaque service spécialisé pour sa partie",
+            "Un pilote unique ayant la responsabilité totale du résultat",
+            "Le client final"
+        ],
+        "correct": [
+            "Un pilote unique ayant la responsabilité totale du résultat"
+        ]
+    },
+    {
+        "id": 102,
+        "type": "multiple_choice",
+        "question": "Au niveau 2 (piloté) du CMMI, quel est le pourcentage de retours en arrière ?",
+        "options": [
+            "< 5%",
+            "5% à 15%",
+            "25% à 50%",
+            "> 50%"
+        ],
+        "correct": [
+            "25% à 50%"
+        ]
+    },
+    {
+        "id": 103,
+        "type": "multiple_choice",
+        "question": "Au niveau 3 (standardisé) du CMMI, quel est le pourcentage de retours en arrière ?",
+        "options": [
+            "< 5%",
+            "5% à 15%",
+            "25% à 50%",
+            "> 50%"
+        ],
+        "correct": [
+            "5% à 15%"
+        ]
+    },
+    {
+        "id": 104,
+        "type": "multiple_choice",
+        "question": "Au niveau 4 (mesuré) du CMMI, quel est le pourcentage de retours en arrière ?",
+        "options": [
+            "< 5%",
+            "5% à 15%",
+            "25% à 50%",
+            "> 50%"
+        ],
+        "correct": [
+            "< 5%"
+        ]
+    },
+    {
+        "id": 105,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce qui caractérise le niveau 3 (standardisé) du CMMI ?",
+        "options": [
+            "L'efficacité dépend des compétences individuelles",
+            "Des bonnes pratiques existent mais ne sont pas obligatoires",
+            "Les processus sont communs à tous et obligatoires",
+            "Une mesure de l'efficacité des processus est réalisée"
+        ],
+        "correct": [
+            "Les processus sont communs à tous et obligatoires"
+        ]
+    },
+    {
+        "id": 106,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce qui caractérise le niveau 5 (optimisé) du CMMI ?",
+        "options": [
+            "Les processus sont communs à tous et obligatoires",
+            "Une mesure de l'efficacité des processus est réalisée",
+            "Les processus sont maîtrisés",
+            "L'efficacité dépend des compétences de chacun"
+        ],
+        "correct": [
+            "Les processus sont maîtrisés"
+        ]
+    },
+    {
+        "id": 107,
+        "type": "multiple_choice",
+        "question": "Un développeur junior vient d'arriver dans l'équipe. Il est très motivé mais n'a jamais travaillé sur ce type de projet. Quel style de management adopter ?",
+        "options": [
+            "Participatif",
+            "Délégatif",
+            "Directif",
+            "Persuasif"
+        ],
+        "correct": [
+            "Directif"
+        ]
+    },
+    {
+        "id": 108,
+        "type": "multiple_choice",
+        "question": "Un expert senior maîtrise parfaitement son domaine mais se sent peu impliqué dans les décisions. Quel style de management adopter ?",
+        "options": [
+            "Directif",
+            "Persuasif",
+            "Participatif",
+            "Délégatif"
+        ],
+        "correct": [
+            "Participatif"
+        ]
+    },
+    {
+        "id": 109,
+        "type": "multiple_choice",
+        "question": "Un collaborateur compétent mais peu motivé a besoin de comprendre le sens de sa mission. Quel style de management adopter ?",
+        "options": [
+            "Directif",
+            "Persuasif",
+            "Participatif",
+            "Délégatif"
+        ],
+        "correct": [
+            "Persuasif"
+        ]
+    },
+    {
+        "id": 110,
+        "type": "multiple_choice",
+        "question": "Un collaborateur expérimenté et très motivé gère son périmètre de façon autonome depuis 2 ans. Quel style de management adopter ?",
+        "options": [
+            "Directif",
+            "Persuasif",
+            "Participatif",
+            "Délégatif"
+        ],
+        "correct": [
+            "Délégatif"
+        ]
+    },
+    {
+        "id": 111,
+        "type": "multiple_choice",
+        "question": "Le style 'Persuasif' se caractérise par quoi ?",
+        "options": [
+            "Le manager décide seul et informe sans explication",
+            "Le manager décide seul mais prend le temps de partager et d'expliquer",
+            "Le manager implique le collaborateur dans la prise de décision",
+            "Le collaborateur décide dans le cadre de sa délégation"
+        ],
+        "correct": [
+            "Le manager décide seul mais prend le temps de partager et d'expliquer"
+        ]
+    },
+    {
+        "id": 112,
+        "type": "multiple_choice",
+        "question": "Quel est le risque principal du style 'Participatif' ?",
+        "options": [
+            "Autoritarisme du manager",
+            "Abandon du collaborateur",
+            "Chercher une approbation de tous à tout prix",
+            "Trop de temps passé dans l'argumentation"
+        ],
+        "correct": [
+            "Chercher une approbation de tous à tout prix"
+        ]
+    },
+    {
+        "id": 113,
+        "type": "multiple_choice",
+        "question": "Deux membres de l'équipe sont en désaccord sur l'architecture technique à adopter. Le projet a du temps. Quelle technique de gestion des conflits utiliser ?",
+        "options": [
+            "Forcing",
+            "Avoiding",
+            "Smoothing",
+            "Collaborating"
+        ],
+        "correct": [
+            "Collaborating"
+        ]
+    },
+    {
+        "id": 114,
+        "type": "multiple_choice",
+        "question": "Il y a un incident de sécurité critique en production. Le chef de projet doit trancher immédiatement. Quelle technique de gestion des conflits utiliser ?",
+        "options": [
+            "Collaborating",
+            "Compromising",
+            "Smoothing",
+            "Forcing"
+        ],
+        "correct": [
+            "Forcing"
+        ]
+    },
+    {
+        "id": 115,
+        "type": "multiple_choice",
+        "question": "Deux équipes se disputent la priorité sur une ressource partagée et le délai est très court. Quelle technique de gestion des conflits utiliser ?",
+        "options": [
+            "Collaborating",
+            "Compromising",
+            "Forcing",
+            "Avoiding"
+        ],
+        "correct": [
+            "Compromising"
+        ]
+    },
+    {
+        "id": 116,
+        "type": "multiple_choice",
+        "question": "Un désaccord mineur survient en fin de réunion sur un sujet de faible enjeu. Le chef de projet préfère ne pas s'y attarder. Quelle technique utilise-t-il ?",
+        "options": [
+            "Collaborating",
+            "Forcing",
+            "Smoothing",
+            "Avoiding"
+        ],
+        "correct": [
+            "Smoothing"
+        ]
+    },
+    {
+        "id": 117,
+        "type": "multiple_choice",
+        "question": "Un conflit éclate mais le chef de projet manque d'informations pour trancher. Il préfère attendre d'en savoir plus. Quelle technique utilise-t-il ?",
+        "options": [
+            "Collaborating",
+            "Compromising",
+            "Smoothing",
+            "Avoiding"
+        ],
+        "correct": [
+            "Avoiding"
+        ]
+    },
+    {
+        "id": 118,
+        "type": "multiple_choice",
+        "question": "Quels sont les inconvénients de la technique 'Forcing' ? (plusieurs réponses)",
+        "options": [
+            "Génère de la résistance",
+            "Dégrade le climat",
+            "Prend du temps",
+            "Diminue l'engagement",
+            "Solution souvent sous-optimale"
+        ],
+        "correct": [
+            "Génère de la résistance",
+            "Dégrade le climat",
+            "Diminue l'engagement"
+        ]
+    },
+    {
+        "id": 119,
+        "type": "multiple_choice",
+        "question": "Selon le modèle de Hofstede, quelle dimension culturelle impacte les décisions individuelles vs collectives dans une équipe projet ?",
+        "options": [
+            "Distance hiérarchique",
+            "Individualisme / collectivisme",
+            "Masculinité / féminité",
+            "Évitement de l'incertitude"
+        ],
+        "correct": [
+            "Individualisme / collectivisme"
+        ]
+    },
+    {
+        "id": 120,
+        "type": "multiple_choice",
+        "question": "Selon Hofstede, quelle dimension culturelle correspond à la tolérance au risque dans un projet ?",
+        "options": [
+            "Distance hiérarchique",
+            "Masculinité / féminité",
+            "Évitement de l'incertitude",
+            "Orientation long terme"
+        ],
+        "correct": [
+            "Évitement de l'incertitude"
+        ]
+    },
+    {
+        "id": 121,
+        "type": "multiple_choice",
+        "question": "Selon le cours, comment adapter son management dans un projet avec des équipes indiennes ?",
+        "options": [
+            "Privilégier le consensus collectif",
+            "Respecter la hiérarchie",
+            "Se concentrer sur l'orientation résultat",
+            "Appliquer une structure et planification stricte"
+        ],
+        "correct": [
+            "Respecter la hiérarchie"
+        ]
+    },
+    {
+        "id": 122,
+        "type": "multiple_choice",
+        "question": "Selon le cours, comment adapter son management dans un projet avec des équipes américaines (USA) ?",
+        "options": [
+            "Respecter la hiérarchie strictement",
+            "Privilégier le consensus collectif",
+            "Se concentrer sur l'orientation résultat",
+            "Appliquer une planification très stricte"
+        ],
+        "correct": [
+            "Se concentrer sur l'orientation résultat"
+        ]
+    },
+    {
+        "id": 123,
+        "type": "multiple_choice",
+        "question": "Quelle dimension de Hofstede oppose orientation performance à orientation consensus ?",
+        "options": [
+            "Distance hiérarchique",
+            "Évitement de l'incertitude",
+            "Masculinité / féminité",
+            "Indulgence / retenue"
+        ],
+        "correct": [
+            "Masculinité / féminité"
+        ]
+    },
+    {
+        "id": 124,
+        "type": "multiple_choice",
+        "question": "Combien de dimensions comporte le modèle de Hofstede présenté dans le cours ?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "correct": [
+            "6"
+        ]
+    },
+    {
+        "id": 125,
+        "type": "multiple_choice",
+        "question": "Qu'est-ce que l'analyse 'Make-or-Buy' dans le Procurement Management Plan ?",
+        "options": [
+            "Une analyse du prix de marché pour négocier avec les fournisseurs",
+            "La décision d'internaliser ou d'externaliser une activité",
+            "Un outil d'évaluation des risques contractuels",
+            "Un planning de livraison des fournisseurs"
+        ],
+        "correct": [
+            "La décision d'internaliser ou d'externaliser la activité"
+        ]
+    },
+    {
+        "id": 126,
+        "type": "multiple_choice",
+        "question": "Quels critères entrent en jeu dans une analyse Make-or-Buy ? (plusieurs réponses)",
+        "options": [
+            "Coût total",
+            "Compétence interne disponible",
+            "Nombre de fournisseurs sur le marché",
+            "Confidentialité",
+            "Risque stratégique"
+        ],
+        "correct": [
+            "Coût total",
+            "Compétence interne disponible",
+            "Confidentialité",
+            "Risque stratégique"
+        ]
+    },
+    {
+        "id": 127,
+        "type": "multiple_choice",
+        "question": "Quels éléments composent le Procurement Management Plan ? (plusieurs réponses)",
+        "options": [
+            "Make-or-Buy Analysis",
+            "Type de contrat",
+            "Plan de formation de l'équipe",
+            "Méthode de sélection des fournisseurs",
+            "Gestion des risques contractuels"
+        ],
+        "correct": [
+            "Make-or-Buy Analysis",
+            "Type de contrat",
+            "Méthode de sélection des fournisseurs",
+            "Gestion des risques contractuels"
+        ]
+    },
+    {
+        "id": 128,
+        "type": "multiple_choice",
+        "question": "Lors de la planification des procurements, après avoir analysé le WBS et les ressources, que rédige-t-on ? (plusieurs réponses)",
+        "options": [
+            "Des cahiers des charges",
+            "Des grilles de cotations",
+            "Le plan de management des risques",
+            "La matrice RACI"
+        ],
+        "correct": [
+            "Des cahiers des charges",
+            "Des grilles de cotations"
+        ]
+    },
+    {
+        "id": 129,
+        "type": "multiple_choice",
+        "question": "Un client veut construire un bâtiment dont les plans sont 100% définis. Le budget est fixe. Quel type de contrat est le plus adapté ?",
+        "options": [
+            "Cost Plus Fixed Fee (CPFF)",
+            "Time & Material (T&M)",
+            "Firm Fixed Price (FFP)",
+            "Cost Plus Incentive Fee (CPIF)"
+        ],
+        "correct": [
+            "Firm Fixed Price (FFP)"
+        ]
+    },
+    {
+        "id": 130,
+        "type": "multiple_choice",
+        "question": "Un projet R&D très innovant démarre avec un scope encore incertain. Le client veut un prestataire mais ne peut pas fixer un prix à l'avance. Quel type de contrat privilégier ?",
+        "options": [
+            "Firm Fixed Price (FFP)",
+            "Fixed Price Incentive Fee (FPIF)",
+            "Cost-Reimbursable (CR)",
+            "Fixed Price with Economic Price Adjustment (FP-EPA)"
+        ],
+        "correct": [
+            "Cost-Reimbursable (CR)"
+        ]
+    },
+    {
+        "id": 131,
+        "type": "multiple_choice",
+        "question": "Une entreprise embauche des consultants pour une mission dont la durée est variable selon les besoins. Quel type de contrat est le plus adapté ?",
+        "options": [
+            "Firm Fixed Price (FFP)",
+            "Cost Plus Fixed Fee (CPFF)",
+            "Time & Material (T&M)",
+            "Fixed Price Incentive Fee (FPIF)"
+        ],
+        "correct": [
+            "Time & Material (T&M)"
+        ]
+    },
+    {
+        "id": 132,
+        "type": "multiple_choice",
+        "question": "Un contrat sur 5 ans inclut une clause permettant de réviser le prix selon l'inflation. De quel type de contrat s'agit-il ?",
+        "options": [
+            "Firm Fixed Price (FFP)",
+            "Fixed Price with Economic Price Adjustment (FP-EPA)",
+            "Cost Plus Incentive Fee (CPIF)",
+            "Time & Material (T&M)"
+        ],
+        "correct": [
+            "Fixed Price with Economic Price Adjustment (FP-EPA)"
+        ]
+    },
+    {
+        "id": 133,
+        "type": "multiple_choice",
+        "question": "Dans un contrat FPIF (Fixed Price Incentive Fee), qu'est-ce qui s'ajoute au prix fixe ?",
+        "options": [
+            "Le remboursement de tous les coûts réels",
+            "Des incentives ou pénalités selon les performances",
+            "Un taux horaire variable selon la charge",
+            "Une clause de révision annuelle du prix"
+        ],
+        "correct": [
+            "Des incentives ou pénalités selon les performances"
+        ]
+    },
+    {
+        "id": 134,
+        "type": "multiple_choice",
+        "question": "Un projet dépend d'un seul fournisseur cloud étranger. Si ce fournisseur fait faillite, le projet est bloqué. Dans quelle catégorie de risque cela se classe-t-il ?",
+        "options": [
+            "Risque technique",
+            "Risque organisationnel",
+            "Risque externe",
+            "Risque réglementaire"
+        ],
+        "correct": [
+            "Risque externe"
+        ]
+    },
+    {
+        "id": 135,
+        "type": "multiple_choice",
+        "question": "Le projet traite des données personnelles mais aucune analyse RGPD n'a été faite. Quelle catégorie de risque est concernée ?",
+        "options": [
+            "Risque technique",
+            "Risque réglementaire",
+            "Risque organisationnel",
+            "Risque contractuel"
+        ],
+        "correct": [
+            "Risque réglementaire"
+        ]
+    },
+    {
+        "id": 136,
+        "type": "multiple_choice",
+        "question": "Un risque a une probabilité de 50% et un impact estimé à 20 000€. Quelle est son enveloppe financière (contingency reserve) ?",
+        "options": [
+            "5 000€",
+            "10 000€",
+            "20 000€",
+            "40 000€"
+        ],
+        "correct": [
+            "10 000€"
+        ]
+    },
+    {
+        "id": 137,
+        "type": "multiple_choice",
+        "question": "Le développeur clé d'un projet quitte l'entreprise. Quelle catégorie de risque représente ce départ ?",
+        "options": [
+            "Risque technique",
+            "Risque externe",
+            "Risque organisationnel",
+            "Risque contractuel"
+        ],
+        "correct": [
+            "Risque organisationnel"
+        ]
+    },
+    {
+        "id": 138,
+        "type": "multiple_choice",
+        "question": "Pour traiter le risque de départ d'un développeur clé, quelle stratégie de réponse consiste à former un second développeur sur le même périmètre ?",
+        "options": [
+            "Éviter",
+            "Transférer",
+            "Mitiger",
+            "Accepter"
+        ],
+        "correct": [
+            "Mitiger"
+        ]
+    },
+    {
+        "id": 139,
+        "type": "multiple_choice",
+        "question": "Pour traiter le risque lié à une technologie inconnue, le chef de projet décide de changer de technologie pour une maîtrisée. Quelle stratégie est-ce ?",
+        "options": [
+            "Mitiger",
+            "Transférer",
+            "Accepter",
+            "Éviter"
+        ],
+        "correct": [
+            "Éviter"
+        ]
+    },
+    {
+        "id": 140,
+        "type": "multiple_choice",
+        "question": "Le chef de projet souscrit une assurance pour couvrir un risque financier lié à un retard fournisseur. Quelle stratégie est-ce ?",
+        "options": [
+            "Éviter",
+            "Accepter",
+            "Mitiger",
+            "Transférer"
+        ],
+        "correct": [
+            "Transférer"
+        ]
+    },
+    {
+        "id": 141,
+        "type": "multiple_choice",
+        "question": "Dans la méthode 8D, à quelle étape met-on en place des mesures immédiates pour protéger le client en attendant la solution définitive ?",
+        "options": [
+            "D1 - Constitution de l'équipe",
+            "D2 - Description du problème",
+            "D3 - Actions immédiates de sécurisation",
+            "D5 - Actions correctives définitives"
+        ],
+        "correct": [
+            "D3 - Actions immédiates de sécurisation"
+        ]
+    },
+    {
+        "id": 142,
+        "type": "multiple_choice",
+        "question": "Dans la méthode 8D, à quelle étape recherche-t-on les causes racines du problème ?",
+        "options": [
+            "D2 - Description du problème",
+            "D3 - Actions immédiates",
+            "D4 - Causes possibles et causes racines",
+            "D6 - Mise en œuvre des solutions"
+        ],
+        "correct": [
+            "D4 - Causes possibles et causes racines"
+        ]
+    },
+    {
+        "id": 143,
+        "type": "multiple_choice",
+        "question": "Quelle est la dernière étape (D8) de la méthode 8D ?",
+        "options": [
+            "Vérifier l'efficacité des actions correctives",
+            "Éviter la réapparition du problème",
+            "Féliciter l'équipe et diffuser la démarche",
+            "Archiver les documents qualité"
+        ],
+        "correct": [
+            "Féliciter l'équipe et diffuser la démarche"
+        ]
+    },
+    {
+        "id": 144,
+        "type": "multiple_choice",
+        "question": "Dans le 8D, l'étape D7 consiste à ?",
+        "options": [
+            "Mettre en œuvre les solutions correctives",
+            "Éviter la réapparition sur des machines ou processus similaires et capitaliser",
+            "Féliciter l'équipe",
+            "Décrire le problème avec les données disponibles"
+        ],
+        "correct": [
+            "Éviter la réapparition sur des machines ou processus similaires et capitaliser"
+        ]
     }
 ]
