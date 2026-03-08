@@ -1527,7 +1527,7 @@
             "Persuasif"
         ],
         "correct": [
-            "Directif"
+            "Persuasif"
         ]
     },
     {
@@ -1812,13 +1812,15 @@
             "Type de contrat",
             "Plan de formation de l'équipe",
             "Méthode de sélection des fournisseurs",
-            "Gestion des risques contractuels"
+            "Gestion des risques contractuels",
+            "Rôles et responsabilités"
         ],
         "correct": [
             "Make-or-Buy Analysis",
             "Type de contrat",
             "Méthode de sélection des fournisseurs",
-            "Gestion des risques contractuels"
+            "Gestion des risques contractuels",
+            "Rôles et responsabilités"
         ]
     },
     {
