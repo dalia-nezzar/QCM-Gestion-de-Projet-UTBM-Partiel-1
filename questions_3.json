@@ -948,5 +948,217 @@
         "correct": [
             "Control Chart (carte de contrôle)"
         ]
+    },
+    {
+        "id": 66,
+        "type": "multiple_choice",
+        "question": "Quelle est la finalité d'un Système de Management de la Qualité (SMQ) ?",
+        "options": [
+            "De gérer le département qualité",
+            "D'orienter l'entreprise en terme de qualité",
+            "De contrôler les produits et d'éliminer les non-conformités",
+            "De gérer les relations clients/fournisseurs"
+        ],
+        "correct": [
+            "D'orienter l'entreprise en terme de qualité"
+        ]
+    },
+    {
+        "id": 67,
+        "type": "multiple_choice",
+        "question": "Selon les normes reconnues, la qualité c'est ?",
+        "options": [
+            "La satisfaction des actionnaires de l'entreprise",
+            "La fiabilité du produit",
+            "L'aptitude à satisfaire des exigences",
+            "L'absence de défaut pendant la période de garantie"
+        ],
+        "correct": [
+            "L'aptitude à satisfaire des exigences"
+        ]
+    },
+    {
+        "id": 68,
+        "type": "multiple_choice",
+        "question": "Quelle est la norme définissant les exigences d'un SMQ ?",
+        "options": [
+            "ISO 9003",
+            "ISO 9001",
+            "ISO 9002",
+            "ISO 12207",
+            "ISO 14001"
+        ],
+        "correct": [
+            "ISO 9001"
+        ]
+    },
+    {
+        "id": 69,
+        "type": "multiple_choice",
+        "question": "Sur quel découpage s'appuie un SMQ ?",
+        "options": [
+            "Processus",
+            "Organisation / organigramme"
+        ],
+        "correct": [
+            "Processus"
+        ]
+    },
+    {
+        "id": 70,
+        "type": "multiple_choice",
+        "question": "Quelle est la norme définissant les processus qualité du cycle de vie logiciel ?",
+        "options": [
+            "ISO 9003",
+            "ISO 9001",
+            "ISO 9002",
+            "ISO 12207",
+            "ISO 14001"
+        ],
+        "correct": [
+            "ISO 12207"
+        ]
+    },
+    {
+        "id": 71,
+        "type": "multiple_choice",
+        "question": "Quels processus font partie des processus de base selon ISO 12207 ? (plusieurs réponses)",
+        "options": [
+            "Acquisition",
+            "Fourniture",
+            "Contrôle",
+            "Amélioration",
+            "Maintenance"
+        ],
+        "correct": [
+            "Acquisition",
+            "Fourniture",
+            "Maintenance"
+        ]
+    },
+    {
+        "id": 72,
+        "type": "multiple_choice",
+        "question": "Quel indicateur prendre pour mesurer la performance d'un logiciel ?",
+        "options": [
+            "Taux de défaillance",
+            "Taux de complétude des exigences",
+            "Temps de réponse"
+        ],
+        "correct": [
+            "Temps de réponse"
+        ]
+    },
+    {
+        "id": 73,
+        "type": "multiple_choice",
+        "question": "Quel indicateur prendre pour mesurer la fiabilité d'un logiciel ?",
+        "options": [
+            "Taux de défaillance",
+            "Taux de complétude des exigences",
+            "Temps de réponse"
+        ],
+        "correct": [
+            "Taux de défaillance"
+        ]
+    },
+    {
+        "id": 74,
+        "type": "multiple_choice",
+        "question": "Quel indicateur prendre pour mesurer la capacité fonctionnelle d'un logiciel ?",
+        "options": [
+            "Taux de défaillance",
+            "Taux de complétude des exigences",
+            "Temps de réponse"
+        ],
+        "correct": [
+            "Taux de complétude des exigences"
+        ]
+    },
+    {
+        "id": 75,
+        "type": "multiple_choice",
+        "question": "Quelle version de la norme ISO 9001 introduit l'approche processus et l'évaluation de l'efficacité ?",
+        "options": [
+            "ISO 9001 (1994)",
+            "ISO 9001 (2000)",
+            "ISO 9001 (2008)",
+            "ISO 9001 (2015)"
+        ],
+        "correct": [
+            "ISO 9001 (2000)"
+        ]
+    },
+    {
+        "id": 76,
+        "type": "multiple_choice",
+        "question": "Qu'apporte ISO 9001 version 2015 par rapport aux versions précédentes ?",
+        "options": [
+            "Elle introduit pour la première fois l'approche processus",
+            "Elle intègre l'évaluation du contexte interne et externe et la réponse aux parties prenantes",
+            "Elle supprime l'obligation d'un manuel qualité",
+            "Elle se concentre uniquement sur le contrôle des produits finis"
+        ],
+        "correct": [
+            "Elle intègre l'évaluation du contexte interne et externe et la réponse aux parties prenantes"
+        ]
+    },
+    {
+        "id": 77,
+        "type": "multiple_choice",
+        "question": "Quelle norme porte sur le management environnemental, citée dans le cours aux côtés de l'ISO 9001 ?",
+        "options": [
+            "ISO 12207",
+            "ISO 9003",
+            "ISO 14001",
+            "ISO 27001"
+        ],
+        "correct": [
+            "ISO 14001"
+        ]
+    },
+    {
+        "id": 78,
+        "type": "multiple_choice",
+        "question": "Selon l'ISO 9001 (1994), quelle est la principale attente lors d'un audit ?",
+        "options": [
+            "Démontrer que le SMQ améliore en permanence les processus",
+            "Démontrer la conformité : écrire ce que l'on fait et faire ce que l'on a écrit",
+            "Évaluer l'efficacité et l'efficience des processus",
+            "Répondre aux orientations stratégiques de l'entreprise"
+        ],
+        "correct": [
+            "Démontrer la conformité : écrire ce que l'on fait et faire ce que l'on a écrit"
+        ]
+    },
+    {
+        "id": 79,
+        "type": "multiple_choice",
+        "question": "Parmi les versions d'ISO 9001 suivantes, laquelle introduit le cycle PDCA comme exigence ?",
+        "options": [
+            "ISO 9001 (1994)",
+            "ISO 9001 (2000)",
+            "ISO 9001 (2008)",
+            "ISO 9001 (2015)"
+        ],
+        "correct": [
+            "ISO 9001 (2008)"
+        ]
+    },
+    {
+        "id": 80,
+        "type": "multiple_choice",
+        "question": "Quelles normes ISO sont citées dans le cours pour la version 2015 ? (plusieurs réponses)",
+        "options": [
+            "ISO 9001",
+            "ISO 14001",
+            "ISO 12207",
+            "ISO 27001",
+            "ISO 9003"
+        ],
+        "correct": [
+            "ISO 9001",
+            "ISO 14001"
+        ]
     }
 ]
