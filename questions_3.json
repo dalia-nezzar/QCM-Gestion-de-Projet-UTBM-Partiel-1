@@ -2061,5 +2061,812 @@
         "correct": [
             "Éviter la réapparition sur des machines ou processus similaires et capitaliser"
         ]
-    }
+    },
+      {
+    "id": 145,
+    "type": "multiple_choice",
+    "question": "Quels sont les 7 principes du SMQ (Système de Management de la Qualité) selon le cours GE79 ?",
+    "options": [
+      "Orientation client, Responsabilité direction, Implication personnel, Approche processus, Amélioration continue, Management par faits, Relations parties prenantes",
+      "Planification, Organisation, Direction, Contrôle, Coordination, Communication, Évaluation et suivi continu des processus qualité",
+      "Qualité, Coût, Délai, Sécurité, Environnement, Innovation, Satisfaction et fidélisation durable du client",
+      "Orientation client, Efficacité opérationnelle, Productivité accrue, Contrôle interne renforcé, Traçabilité, Audit régulier et Certification"
+    ],
+    "correct": [
+      "Orientation client, Responsabilité direction, Implication personnel, Approche processus, Amélioration continue, Management par les faits, Relations parties prenantes"
+    ]
+  },
+  {
+    "id": 146,
+    "type": "multiple_choice",
+    "question": "Dans le SMQ, qu'est-ce que le \"gold plating\" ?",
+    "options": [
+      "Respecter strictement les exigences client sans les dépasser",
+      "S'efforcer d'aller au-delà des exigences du client",
+      "Facturer des services supplémentaires non demandés",
+      "Appliquer des normes ISO à tous les processus"
+    ],
+    "correct": [
+      "S'efforcer d'aller au-delà des exigences du client"
+    ]
+  },
+  {
+    "id": 147,
+    "type": "multiple_choice",
+    "question": "Dans le SMQ, par quoi un processus est-il défini ? (plusieurs réponses)",
+    "options": [
+      "Son responsable de processus",
+      "Son ou ses clients et les produits/services fournis",
+      "Ses indicateurs clés d'efficacité et d'efficience",
+      "Son système documentaire",
+      "Le nombre d'employés impliqués",
+      "Le budget alloué"
+    ],
+    "correct": [
+      "Son responsable de processus",
+      "Son ou ses clients et les produits/services fournis",
+      "Ses indicateurs clés d'efficacité et d'efficience",
+      "Son système documentaire"
+    ]
+  },
+  {
+    "id": 148,
+    "type": "multiple_choice",
+    "question": "Quelle est la différence principale entre le management opérationnel et le management des processus ?",
+    "options": [
+      "Le management opérationnel est transversal, pluridisciplinaire, avec une pleine responsabilité totale",
+      "Le management des processus : transversal, un seul pilote, responsabilité totale du résultat",
+      "Le management opérationnel supprime toutes les interfaces entre services et silos organisationnels",
+      "Les deux approches sont identiques dans les faits, seul le périmètre d'application change vraiment"
+    ],
+    "correct": [
+      "Le management des processus est transversal, avec un seul pilote et une responsabilité totale du résultat"
+    ]
+  },
+  {
+    "id": 149,
+    "type": "multiple_choice",
+    "question": "Dans le cycle PDCA, que signifie l'étape 'Check' ?",
+    "options": [
+      "Mettre en pratique la méthode et mesurer les résultats",
+      "Vérifier si le standard est atteint et ce qui fonctionne ou non",
+      "Définir les problèmes et établir des objectifs",
+      "Améliorer le système de travail et répéter les solutions appropriées"
+    ],
+    "correct": [
+      "Vérifier si le standard est atteint et ce qui fonctionne ou non"
+    ]
+  },
+  {
+    "id": 150,
+    "type": "multiple_choice",
+    "question": "Quelles sont les 3 grandes familles de processus dans la norme ISO 12207 ?",
+    "options": [
+      "Processus de base, Processus support, Processus organisationnels",
+      "Processus primaires, Processus secondaires, Processus tertiaires",
+      "Processus de développement, Processus de test, Processus de maintenance",
+      "Processus d'entrée, Processus de transformation, Processus de sortie"
+    ],
+    "correct": [
+      "Processus de base, Processus support, Processus organisationnels"
+    ]
+  },
+  {
+    "id": 151,
+    "type": "multiple_choice",
+    "question": "Quels sont les processus de base dans ISO 12207 ? (plusieurs réponses)",
+    "options": [
+      "Acquisition",
+      "Fourniture",
+      "Développement",
+      "Exploitation",
+      "Maintenance",
+      "Documentation",
+      "Assurance qualité"
+    ],
+    "correct": [
+      "Acquisition",
+      "Fourniture",
+      "Développement",
+      "Exploitation",
+      "Maintenance"
+    ]
+  },
+  {
+    "id": 152,
+    "type": "multiple_choice",
+    "question": "Dans ISO 12207, quels processus font partie des processus support ? (plusieurs réponses)",
+    "options": [
+      "Documentation",
+      "Gestion de configuration",
+      "Assurance qualité",
+      "Contrôle",
+      "Validation",
+      "Revue conjointe",
+      "Audit",
+      "Résolution de problèmes",
+      "Formation",
+      "Amélioration"
+    ],
+    "correct": [
+      "Documentation",
+      "Gestion de configuration",
+      "Assurance qualité",
+      "Contrôle",
+      "Validation",
+      "Revue conjointe",
+      "Audit",
+      "Résolution de problèmes"
+    ]
+  },
+  {
+    "id": 153,
+    "type": "multiple_choice",
+    "question": "Quels sont les processus organisationnels dans ISO 12207 ? (plusieurs réponses)",
+    "options": [
+      "Management",
+      "Infrastructure",
+      "Amélioration",
+      "Formation",
+      "Acquisition",
+      "Contrôle"
+    ],
+    "correct": [
+      "Management",
+      "Infrastructure",
+      "Amélioration",
+      "Formation"
+    ]
+  },
+  {
+    "id": 154,
+    "type": "multiple_choice",
+    "question": "Dans le processus d'acquisition (ISO 12207), quelles sont les options envisageables pour répondre au besoin client ?",
+    "options": [
+      "Acheter un logiciel existant, développer, ou améliorer un existant",
+      "Externaliser entièrement, internaliser, ou mutualiser avec un partenaire",
+      "Acheter une licence, louer un SaaS, ou emprunter un outil open source",
+      "Développer en interne, sous-traiter entièrement, ou abandonner le projet"
+    ],
+    "correct": [
+      "Acheter un logiciel existant, développer, ou améliorer un existant"
+    ]
+  },
+  {
+    "id": 155,
+    "type": "multiple_choice",
+    "question": "Dans le processus de maintenance (ISO 12207), quels types de modifications sont pris en compte ?",
+    "options": [
+      "Correctif, amélioration, préventive, adaptatif à nouvel environnement",
+      "Majeure, mineure, critique, optionnelle selon la priorité définie",
+      "Planifiée, non planifiée, urgente, différée selon le contrat de service",
+      "Fonctionnelle, technique, organisationnelle, réglementaire selon le domaine"
+    ],
+    "correct": [
+      "Correctif, amélioration, préventive, adaptatif à nouvel environnement"
+    ]
+  },
+  {
+    "id": 156,
+    "type": "multiple_choice",
+    "question": "Quelles sont les 6 caractéristiques de la qualité logicielle selon le cours ?",
+    "options": [
+      "Fonctionnalité, Ergonomie, Sécurité, Rapidité d'exécution, Évolutivité, Compatibilité système étendue",
+      "Capacité fonctionnelle, Facilité d'utilisation, Fiabilité, Performance, Maintenabilité, Portabilité",
+      "Exactitude, Précision des calculs, Robustesse, Efficacité énergétique, Flexibilité, Modularité accrue",
+      "Aptitude technique, Interopérabilité étendue, Maturité, Tolérance aux pannes, Stabilité, Adaptabilité"
+    ],
+    "correct": [
+      "Capacité fonctionnelle, Facilité d'utilisation, Fiabilité, Performance, Maintenabilité, Portabilité"
+    ]
+  },
+  {
+    "id": 157,
+    "type": "multiple_choice",
+    "question": "La 'Capacité fonctionnelle' d'un logiciel comprend quelles sous-caractéristiques ? (plusieurs réponses)",
+    "options": [
+      "Aptitude",
+      "Exactitude",
+      "Interopérabilité",
+      "Sécurité",
+      "Maturité",
+      "Temps de réponse"
+    ],
+    "correct": [
+      "Aptitude",
+      "Exactitude",
+      "Interopérabilité",
+      "Sécurité"
+    ]
+  },
+  {
+    "id": 158,
+    "type": "multiple_choice",
+    "question": "À quel moment est réalisée la revue de code dans un workflow agile ?",
+    "options": [
+      "Avant de rédiger les tests automatisés et le plan de test",
+      "Entre la fin des tests automatisés et le merge du code",
+      "Après le déploiement en production et la recette client",
+      "Pendant la réunion de sprint planning avec le product owner"
+    ],
+    "correct": [
+      "Entre la fin des tests automatisés et le merge du code"
+    ]
+  },
+  {
+    "id": 159,
+    "type": "multiple_choice",
+    "question": "Quels sont les avantages de la revue de code ? (plusieurs réponses)",
+    "options": [
+      "Amélioration de la qualité du code",
+      "Partage des connaissances entre développeurs",
+      "Prise en charge des modifications si un développeur est absent",
+      "Remplacement complet des tests automatisés",
+      "Réduction du temps de développement de moitié",
+      "Formation des nouveaux membres de l'équipe"
+    ],
+    "correct": [
+      "Amélioration de la qualité du code",
+      "Partage des connaissances entre développeurs",
+      "Prise en charge des modifications si un développeur est absent",
+      "Formation des nouveaux membres de l'équipe"
+    ]
+  },
+  {
+    "id": 160,
+    "type": "multiple_choice",
+    "question": "La 'Fiabilité' d'un logiciel comprend quelles sous-caractéristiques ? (plusieurs réponses)",
+    "options": [
+      "Maturité",
+      "Tolérance aux fautes",
+      "Possibilité de récupération",
+      "Interopérabilité",
+      "Facilité d'installation",
+      "Temps de réponse"
+    ],
+    "correct": [
+      "Maturité",
+      "Tolérance aux fautes",
+      "Possibilité de récupération"
+    ]
+  },
+  {
+    "id": 161,
+    "type": "multiple_choice",
+    "question": "En qualité logicielle, que mesure la 'Performance' ?",
+    "options": [
+      "Le nombre de fonctionnalités disponibles dans le logiciel livré",
+      "La capacité à résister aux pannes matérielles et logicielles",
+      "Le rapport entre niveau de service et ressources utilisées",
+      "L'effort nécessaire pour modifier, corriger ou adapter le code"
+    ],
+    "correct": [
+      "Le rapport entre niveau de service et ressources utilisées"
+    ]
+  },
+  {
+    "id": 162,
+    "type": "multiple_choice",
+    "question": "Quels indicateurs permettent de mesurer la 'Maintenabilité' d'un logiciel ? (plusieurs réponses)",
+    "options": [
+      "Taux de factorisation",
+      "Nombre d'imbrications de boucles",
+      "Taux de commentaires",
+      "Revue architecture logicielle",
+      "Temps de réponse moyen",
+      "Taux d'utilisation CPU"
+    ],
+    "correct": [
+      "Taux de factorisation",
+      "Nombre d'imbrications de boucles",
+      "Taux de commentaires",
+      "Revue architecture logicielle"
+    ]
+  },
+  {
+    "id": 163,
+    "type": "multiple_choice",
+    "question": "Qu'est-ce que la complexité cyclomatique ?",
+    "options": [
+      "Le nombre total de lignes de code source dans un programme",
+      "Le volume de mémoire RAM utilisé lors de l'exécution du programme",
+      "Le nombre de chemins d'exécution minimal (points de décision + 1)",
+      "Le nombre de classes et d'objets instanciés lors de l'exécution"
+    ],
+    "correct": [
+      "Le nombre de chemins d'exécution minimal (points de décision + 1)"
+    ]
+  },
+  {
+    "id": 164,
+    "type": "multiple_choice",
+    "question": "Quelle est la bonne pratique concernant la complexité cyclomatique selon le cours ?",
+    "options": [
+      "Elle doit être strictement inférieure à 5 pour tout code considéré propre",
+      "Elle ne doit jamais dépasser 20, et rester idéalement sous 10",
+      "Elle doit être égale à 1 dans toutes les méthodes courtes sans condition",
+      "Elle n'a aucune limite recommandée, seul le contexte métier compte vraiment"
+    ],
+    "correct": [
+      "Elle ne doit jamais dépasser 20, et rester idéalement sous 10"
+    ]
+  },
+  {
+    "id": 165,
+    "type": "multiple_choice",
+    "question": "Comment calcule-t-on la complexité cyclomatique avec la formule graphique ?",
+    "options": [
+      "cc = n - e + 2p",
+      "cc = e - n + 2p",
+      "cc = e + n - 2p",
+      "cc = n + e + p"
+    ],
+    "correct": [
+      "cc = e - n + 2p"
+    ]
+  },
+  {
+    "id": 166,
+    "type": "multiple_choice",
+    "question": "Quelle est la valeur attribuée aux décisions doubles (ternaire, coalesce) dans le calcul de la complexité cyclomatique ?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": [
+      "2"
+    ]
+  },
+  {
+    "id": 167,
+    "type": "multiple_choice",
+    "question": "Qu'est-ce que l'indice de maintenabilité (MI) ?",
+    "options": [
+      "Un indicateur basé uniquement sur le comptage brut des lignes de code source du projet",
+      "Le nombre de bugs et de régressions détectés par millier de lignes de code produites",
+      "Un indice combinant volume Halstead, complexité cyclomatique, kloc et taux de commentaires",
+      "Le pourcentage global de couverture par les tests unitaires automatisés sur l'ensemble du projet"
+    ],
+    "correct": [
+      "Un indice combinant volume Halstead, complexité cyclomatique, kloc et taux de commentaires"
+    ]
+  },
+  {
+    "id": 168,
+    "type": "multiple_choice",
+    "question": "Pour l'indice de maintenabilité, un projet est considéré 'très maintenable' si MI est :",
+    "options": [
+      "MI < 65",
+      "MI > 85",
+      "65 < MI < 85",
+      "MI = 100"
+    ],
+    "correct": [
+      "MI > 85"
+    ]
+  },
+  {
+    "id": 169,
+    "type": "multiple_choice",
+    "question": "Dans les métriques d'Halstead, que représente le 'Volume' (V) ?",
+    "options": [
+      "La taille attendue après réduction des opérateurs et opérandes",
+      "La taille de l'implémentation de l'algorithme (N × log n)",
+      "La tendance à l'erreur du programme",
+      "L'effort nécessaire pour comprendre le programme"
+    ],
+    "correct": [
+      "La taille de l'implémentation de l'algorithme (N × log n)"
+    ]
+  },
+  {
+    "id": 170,
+    "type": "multiple_choice",
+    "question": "Que signifie l'acronyme SOLID en développement logiciel ?",
+    "options": [
+      "Single, Open, Liskov, Interface, Dependency — les 5 lettres initiales formant le mot SOLID",
+      "Structured, Object-Oriented, Layered, Integrated, Distributed — 5 propriétés d'architecture logicielle",
+      "Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion",
+      "Scalable, Observable, Loosely-coupled, Interoperable, Documented — 5 critères de qualité logicielle"
+    ],
+    "correct": [
+      "Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion"
+    ]
+  },
+  {
+    "id": 171,
+    "type": "multiple_choice",
+    "question": "Que stipule le Single Responsibility Principle (SRP) ?",
+    "options": [
+      "Une méthode ne doit effectuer qu'une seule opération mathématique",
+      "Une classe ne doit avoir qu'une seule et unique responsabilité",
+      "Un module ne peut dépendre que d'un seul autre module",
+      "Un fichier ne peut contenir qu'une seule classe publique"
+    ],
+    "correct": [
+      "Une classe ne doit avoir qu'une seule et unique responsabilité"
+    ]
+  },
+  {
+    "id": 172,
+    "type": "multiple_choice",
+    "question": "Que signifie le principe Open/Closed ?",
+    "options": [
+      "Ouvert à l'extension du comportement, fermé à la modification du code source existant",
+      "Le code est ouvert aux contributions externes et fermé aux modifications internes",
+      "Les classes sont ouvertes à l'héritage multiple mais fermées à l'instanciation directe",
+      "Le code est open source mais fermé à toute utilisation commerciale sans licence"
+    ],
+    "correct": [
+      "Ouvert à l'extension du comportement, fermé à la modification du code source existant"
+    ]
+  },
+  {
+    "id": 173,
+    "type": "multiple_choice",
+    "question": "Que stipule le Liskov Substitution Principle (LSP) ?",
+    "options": [
+      "Les classes enfants peuvent toujours définir des paramètres supplémentaires par rapport au parent",
+      "La signature, les types de retour et les exceptions doivent être identiques entre parent et enfant",
+      "Toute interface abstraite doit être remplaçable par n'importe quelle implémentation concrète équivalente",
+      "Toutes les méthodes héritées du parent doivent impérativement être redéfinies dans la classe enfant"
+    ],
+    "correct": [
+      "La signature, les types de retour et les exceptions doivent être identiques entre parent et enfant"
+    ]
+  },
+  {
+    "id": 174,
+    "type": "multiple_choice",
+    "question": "Que stipule l'Interface Segregation Principle (ISP) ?",
+    "options": [
+      "Toutes les interfaces du projet doivent être regroupées dans un seul fichier",
+      "Aucun client ne devrait dépendre de méthodes qu'il n'utilise pas",
+      "Les interfaces doivent être plus larges que les classes qui les implémentent",
+      "Une interface ne peut définir qu'une seule méthode abstraite"
+    ],
+    "correct": [
+      "Aucun client ne devrait dépendre de méthodes qu'il n'utilise pas"
+    ]
+  },
+  {
+    "id": 175,
+    "type": "multiple_choice",
+    "question": "Que stipule le Dependency Inversion Principle (DIP) ?",
+    "options": [
+      "Les modules de bas niveau doivent contrôler, instancier et piloter les modules de haut niveau",
+      "Chaque module doit créer et gérer lui-même toutes ses dépendances sans injection externe",
+      "Haut niveau et bas niveau doivent tous deux dépendre d'abstractions, pas de détails concrets",
+      "Les dépendances directes entre modules doivent être totalement supprimées via des microservices"
+    ],
+    "correct": [
+      "Haut niveau et bas niveau doivent tous deux dépendre d'abstractions, pas de détails concrets"
+    ]
+  },
+  {
+    "id": 176,
+    "type": "multiple_choice",
+    "question": "Qu'est-ce que l'Afferent Coupling ?",
+    "options": [
+      "Le nombre de classes qui dépendent de la classe considérée",
+      "Le nombre de classes dont dépend la classe considérée",
+      "Le niveau de couplage global entre tous les modules",
+      "Le nombre total de méthodes publiques exposées par une classe"
+    ],
+    "correct": [
+      "Le nombre de classes qui dépendent de la classe considérée"
+    ]
+  },
+  {
+    "id": 177,
+    "type": "multiple_choice",
+    "question": "Un Efferent Coupling élevé peut indiquer quels problèmes ? (plusieurs réponses)",
+    "options": [
+      "Feature envy (trop de dépendances vers des composants externes)",
+      "Glue (composant centralisant toutes les briques de l'application)",
+      "God object (composant tentant de tout réaliser)",
+      "Classe trop peu utilisée dans le reste du projet",
+      "Code trop simple et sous-découpé"
+    ],
+    "correct": [
+      "Feature envy (trop de dépendances vers des composants externes)",
+      "Glue (composant centralisant toutes les briques de l'application)",
+      "God object (composant tentant de tout réaliser)"
+    ]
+  },
+  {
+    "id": 178,
+    "type": "multiple_choice",
+    "question": "La 'Portabilité' d'un logiciel comprend quelles sous-caractéristiques ? (plusieurs réponses)",
+    "options": [
+      "Facilité d'adaptation à différents environnements",
+      "Facilité d'installation dans un environnement donné",
+      "Interchangeabilité avec un autre logiciel du même type",
+      "Conformité aux règles de portabilité",
+      "Tolérance aux fautes matérielles",
+      "Temps de réponse sous charge"
+    ],
+    "correct": [
+      "Facilité d'adaptation à différents environnements",
+      "Facilité d'installation dans un environnement donné",
+      "Interchangeabilité avec un autre logiciel du même type",
+      "Conformité aux règles de portabilité"
+    ]
+  },
+  {
+    "id": 179,
+    "type": "multiple_choice",
+    "question": "Quels critères ergonomiques permettent de guider l'utilisateur ?",
+    "options": [
+      "Concision, Actions minimales, Densité informationnelle réduite",
+      "Flexibilité d'interaction, Prise en compte de l'expérience utilisateur",
+      "Orientation, Groupement/distinction, Feedback immédiat, Lisibilité",
+      "Protection contre les erreurs, Qualité des messages, Correction des erreurs"
+    ],
+    "correct": [
+      "Orientation, Groupement/distinction, Feedback immédiat, Lisibilité"
+    ]
+  },
+  {
+    "id": 180,
+    "type": "multiple_choice",
+    "question": "Combien de temps d'attente sans retour provoque-t-il un abandon de l'utilisateur selon le cours ?",
+    "options": [
+      "Plus de 1 seconde",
+      "Plus de 3 secondes",
+      "Plus de 5 secondes",
+      "Plus de 10 secondes"
+    ],
+    "correct": [
+      "Plus de 3 secondes"
+    ]
+  },
+  {
+    "id": 181,
+    "type": "multiple_choice",
+    "question": "Quels sont les 4 types de messages d'erreur en ergonomie logicielle ?",
+    "options": [
+      "Debug, Info, Warning, Error — les 4 niveaux standard de log",
+      "Critique, Grave, Mineur, Informatif — selon la sévérité de l'incident",
+      "Système, Application, Utilisateur, Réseau — selon la source du problème",
+      "Information, Avertissement, Erreur bloquante, Indication de progression"
+    ],
+    "correct": [
+      "Information, Avertissement, Erreur bloquante, Indication de progression"
+    ]
+  },
+  {
+    "id": 182,
+    "type": "multiple_choice",
+    "question": "Quelles sont les 2 grandes familles de tests logiciels ?",
+    "options": [
+      "Tests boîte blanche et tests boîte noire",
+      "Tests fonctionnels et tests structuraux",
+      "Tests automatisés et tests manuels",
+      "Tests unitaires et tests d'intégration"
+    ],
+    "correct": [
+      "Tests fonctionnels et tests structuraux"
+    ]
+  },
+  {
+    "id": 183,
+    "type": "multiple_choice",
+    "question": "Quels types de tests font partie des tests fonctionnels ? (plusieurs réponses)",
+    "options": [
+      "Tests de fumée",
+      "Tests unitaires",
+      "Tests d'intégration",
+      "Tests systèmes",
+      "Tests de performance",
+      "Tests de pénétration"
+    ],
+    "correct": [
+      "Tests de fumée",
+      "Tests unitaires",
+      "Tests d'intégration",
+      "Tests systèmes"
+    ]
+  },
+  {
+    "id": 184,
+    "type": "multiple_choice",
+    "question": "Quelle est la différence entre tests boîte blanche et tests boîte noire ?",
+    "options": [
+      "Boîte blanche = tests automatisés uniquement ; Boîte noire = tests manuels uniquement",
+      "Boîte blanche = accès au code source ; Boîte noire = accès uniquement comme l'utilisateur final",
+      "Boîte blanche = tests réalisés en phase de développement ; Boîte noire = tests en production",
+      "Boîte blanche = tests fonctionnels et de régression ; Boîte noire = tests de performance et charge"
+    ],
+    "correct": [
+      "Boîte blanche = accès au code source ; Boîte noire = accès uniquement comme l'utilisateur final"
+    ]
+  },
+  {
+    "id": 185,
+    "type": "multiple_choice",
+    "question": "Quel est l'objectif des tests de fumée (smoke tests) ?",
+    "options": [
+      "Tester chaque méthode ou fonction individuellement",
+      "Repérer des erreurs de syntaxe (linting)",
+      "Vérifier les performances sous charge maximale",
+      "Tester l'intégration entre différents modules"
+    ],
+    "correct": [
+      "Repérer des erreurs de syntaxe (linting)"
+    ]
+  },
+  {
+    "id": 186,
+    "type": "multiple_choice",
+    "question": "Dans les tests unitaires, qu'est-ce qu'un 'Stub' (bouchon) ?",
+    "options": [
+      "Un objet circulant dans le code sans être utilisé",
+      "Un objet renvoyant des valeurs en dur",
+      "Un objet vérifiant que l'objet est utilisé de la bonne manière",
+      "Un spy et stub réunis en un seul objet"
+    ],
+    "correct": [
+      "Un objet renvoyant des valeurs en dur"
+    ]
+  },
+  {
+    "id": 187,
+    "type": "multiple_choice",
+    "question": "Qu'est-ce qu'un 'Mock' dans les tests unitaires ?",
+    "options": [
+      "Un objet circulant sans être utilisé dans le code",
+      "Un objet renvoyant toujours les mêmes valeurs selon le contexte",
+      "Un spy et stub à la fois",
+      "Un objet renvoyant uniquement des valeurs aléatoires"
+    ],
+    "correct": [
+      "Un spy et stub à la fois"
+    ]
+  },
+  {
+    "id": 188,
+    "type": "multiple_choice",
+    "question": "Quelles sont les caractéristiques d'un test unitaire bien formé en PHPUnit ? (plusieurs réponses)",
+    "options": [
+      "Le nom de la classe de test se termine par 'Test'",
+      "La classe hérite de PHPUnit\\Framework\\TestCase",
+      "Les méthodes de test ont un nom commençant par 'test'",
+      "Les tests sont isolés (l'ordre n'a pas d'importance)",
+      "Chaque test doit appeler une API externe pour être réaliste",
+      "La suite doit contenir au minimum 10 méthodes de test"
+    ],
+    "correct": [
+      "Le nom de la classe de test se termine par 'Test'",
+      "La classe hérite de PHPUnit\\Framework\\TestCase",
+      "Les méthodes de test ont un nom commençant par 'test'",
+      "Les tests sont isolés (l'ordre n'a pas d'importance)"
+    ]
+  },
+  {
+    "id": 189,
+    "type": "multiple_choice",
+    "question": "Qu'est-ce que les tests de mutation ?",
+    "options": [
+      "Des tests modifiant de façon aléatoire les données d'entrée afin de découvrir des bugs cachés",
+      "Une technique modifiant le code testé pour vérifier que les tests détectent les erreurs",
+      "Des tests lancés simultanément sur plusieurs branches du dépôt en pipeline d'intégration continue",
+      "Des tests adaptant de manière dynamique leurs assertions selon l'environnement d'exécution cible"
+    ],
+    "correct": [
+      "Une technique modifiant le code testé pour vérifier que les tests détectent les erreurs"
+    ]
+  },
+  {
+    "id": 190,
+    "type": "multiple_choice",
+    "question": "Qu'est-ce qu'un 'mutant tué' dans les tests de mutation ?",
+    "options": [
+      "Un mutant pour lequel au moins un test a échoué",
+      "Un mutant qui a passé tous les tests sans être détecté",
+      "Un mutant non couvert par aucun test existant",
+      "Un mutant ayant provoqué une erreur fatale à l'exécution"
+    ],
+    "correct": [
+      "Un mutant pour lequel au moins un test a échoué"
+    ]
+  },
+  {
+    "id": 191,
+    "type": "multiple_choice",
+    "question": "Quelle est la principale limite des tests de mutation ?",
+    "options": [
+      "Ils ne sont compatibles qu'avec des langages compilés statiquement comme C ou Java",
+      "Ils sont très lents : 1s de tests unitaires peut générer ~8 min de tests de mutation",
+      "Ils ne détectent que les erreurs syntaxiques et non les erreurs de logique métier",
+      "Ils nécessitent impérativement un accès à une base de données de référence en lecture"
+    ],
+    "correct": [
+      "Ils sont très lents : 1s de tests unitaires peut générer ~8 min de tests de mutation"
+    ]
+  },
+  {
+    "id": 192,
+    "type": "multiple_choice",
+    "question": "Quelles sont les bonnes pratiques des tests unitaires ? (plusieurs réponses)",
+    "options": [
+      "1 test doit être simple, concret et tangible",
+      "Les tests doivent être indépendants de l'ordre d'exécution",
+      "Ne pas effectuer d'appels réseau (BDD externe, API) dans un test unitaire",
+      "Nommer les méthodes de test avec des noms clairs décrivant l'objectif",
+      "Tester en priorité le code trivial pour maximiser la couverture",
+      "Toujours virtualiser toutes les dépendances, même celles non utilisées"
+    ],
+    "correct": [
+      "1 test doit être simple, concret et tangible",
+      "Les tests doivent être indépendants de l'ordre d'exécution",
+      "Ne pas effectuer d'appels réseau (BDD externe, API) dans un test unitaire",
+      "Nommer les méthodes de test avec des noms clairs décrivant l'objectif"
+    ]
+  },
+  {
+    "id": 193,
+    "type": "multiple_choice",
+    "question": "Que signifie 'Mutation Score Indicator' (MSI) dans les tests de mutation ?",
+    "options": [
+      "Le pourcentage de mutants couverts tués par les tests",
+      "Le pourcentage de mutants simplement couverts par les tests",
+      "Le pourcentage de mutants tués parmi ceux couverts uniquement",
+      "Le nombre total de mutants générés par l'outil de test"
+    ],
+    "correct": [
+      "Le pourcentage de mutants couverts tués par les tests"
+    ]
+  },
+  {
+    "id": 194,
+    "type": "multiple_choice",
+    "question": "Quels outils de tests de mutation sont cités dans le cours ? (plusieurs réponses)",
+    "options": [
+      "Infection (PHP)",
+      "Stryker Mutator (JavaScript, C#, Scala)",
+      "PHPUnit (PHP)",
+      "Jest (JavaScript)",
+      "Cloc (multi-langages)"
+    ],
+    "correct": [
+      "Infection (PHP)",
+      "Stryker Mutator (JavaScript, C#, Scala)"
+    ]
+  },
+  {
+    "id": 195,
+    "type": "multiple_choice",
+    "question": "Pourquoi '100% d'instructions couvertes ≠ 100% de cas de tests couverts' ?",
+    "options": [
+      "Parce que les outils de mesure produisent systématiquement des résultats erronés ou faux positifs",
+      "Parce que plusieurs langages courants n'offrent pas d'instrumentation fiable pour mesurer la couverture",
+      "Parce que couvrir une instruction ne garantit pas que toutes les branches logiques sont testées",
+      "Parce que les suites de tests automatisés plafonnent structurellement autour de 80% de couverture max"
+    ],
+    "correct": [
+      "Parce que couvrir une instruction ne garantit pas que toutes les branches logiques sont testées"
+    ]
+  },
+  {
+    "id": 196,
+    "type": "multiple_choice",
+    "question": "Dans l'évaluation ergonomique, quelles étapes sont recommandées ? (plusieurs réponses)",
+    "options": [
+      "Tester et observer les utilisateurs",
+      "Croiser les sources (guides de style, critères ergonomiques)",
+      "Être constructif en proposant des solutions",
+      "Être pédagogue en justifiant les remarques",
+      "Imposer une solution sans consultation préalable",
+      "Éviter tout arbitrage pour ne pas créer de conflits"
+    ],
+    "correct": [
+      "Tester et observer les utilisateurs",
+      "Croiser les sources (guides de style, critères ergonomiques)",
+      "Être constructif en proposant des solutions",
+      "Être pédagogue en justifiant les remarques"
+    ]
+  }
 ]
